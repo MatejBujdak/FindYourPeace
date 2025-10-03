@@ -1,0 +1,419 @@
+[ @file = "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\LevelScreen.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [WatchUi,1,14,21]; ]
+import Toybox.WatchUi;
+[ @file = "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\LevelScreen.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [Graphics,2,14,22]; ]
+import Toybox.Graphics;
+[ @file = "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\LevelScreen.mc"; @line = 4; @symbol_classdef = [LevelScreen,4,6,17]; ]
+class LevelScreen {
+    [ @file = "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\LevelScreen.mc"; @line = 4; ]
+    <init> {
+    }
+    [ @file = "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\LevelScreen.mc"; @line = 4; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\LevelScreen.mc"; @line = 6; @symbol_functiondef = [draw,6,14,18]; @symbol_param<0> = [dc,6,19,21]; @symbol_param<0>_type<0> = [Dc,6,25,27]; ]
+    function draw(dc as Dc) {
+C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_LevelScreen_mc_6_29_48_4_start:
+[ "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\LevelScreen.mc" 7 8 ]
+        [ "C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_LevelScreen_mc_6_29_48_4_start" "C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_LevelScreen_mc_6_29_48_4_stop" ]
+        %level.1 = local;
+        symbol [ level %level.1 7 12 17 ];
+        symbol [ Application %tmp.2 7 20 31 ];
+        %tmp.2 = getv ? :Application;
+        symbol [ Storage %tmp.3 7 32 39 ];
+        %tmp.3 = getv %tmp.2 :Storage;
+        symbol [ getValue %tmp.4 7 40 48 ];
+        %tmp.4 = getv function %tmp.3 :getValue;
+        %tmp.5 = "level";
+        %tmp.6 = invoke %tmp.3 %tmp.4(%tmp.5);
+        lputv %level.1 %tmp.6;
+        symbol [ level %level.1 7 12 17 ];
+[ "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\LevelScreen.mc" 8 8 ]
+        [ "C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_LevelScreen_mc_6_29_48_4_start" "C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_LevelScreen_mc_6_29_48_4_stop" ]
+        %progress.2 = local;
+        symbol [ progress %progress.2 8 12 20 ];
+        symbol [ Application %tmp.8 8 23 34 ];
+        %tmp.8 = getv ? :Application;
+        symbol [ Storage %tmp.9 8 35 42 ];
+        %tmp.9 = getv %tmp.8 :Storage;
+        symbol [ getValue %tmp.10 8 43 51 ];
+        %tmp.10 = getv function %tmp.9 :getValue;
+        %tmp.11 = "levelProgress";
+        %tmp.12 = invoke %tmp.9 %tmp.10(%tmp.11);
+        lputv %progress.2 %tmp.12;
+        symbol [ progress %progress.2 8 12 20 ];
+[ "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\LevelScreen.mc" 9 8 ]
+        [ "C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_LevelScreen_mc_6_29_48_4_start" "C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_LevelScreen_mc_6_29_48_4_stop" ]
+        %needed.3 = local;
+        symbol [ needed %needed.3 9 12 18 ];
+        symbol [ Application %tmp.14 9 21 32 ];
+        %tmp.14 = getv ? :Application;
+        symbol [ Storage %tmp.15 9 33 40 ];
+        %tmp.15 = getv %tmp.14 :Storage;
+        symbol [ getValue %tmp.16 9 41 49 ];
+        %tmp.16 = getv function %tmp.15 :getValue;
+        %tmp.17 = "nextlevelneededpoints";
+        %tmp.18 = invoke %tmp.15 %tmp.16(%tmp.17);
+        lputv %needed.3 %tmp.18;
+        symbol [ needed %needed.3 9 12 18 ];
+[ "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\LevelScreen.mc" 10 8 ]
+        [ "C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_LevelScreen_mc_6_29_48_4_start" "C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_LevelScreen_mc_6_29_48_4_stop" ]
+        %hotstreak.4 = local;
+        symbol [ hotstreak %hotstreak.4 10 12 21 ];
+        symbol [ Application %tmp.20 10 24 35 ];
+        %tmp.20 = getv ? :Application;
+        symbol [ Storage %tmp.21 10 36 43 ];
+        %tmp.21 = getv %tmp.20 :Storage;
+        symbol [ getValue %tmp.22 10 44 52 ];
+        %tmp.22 = getv function %tmp.21 :getValue;
+        %tmp.23 = "hotstreak";
+        %tmp.24 = invoke %tmp.21 %tmp.22(%tmp.23);
+        lputv %hotstreak.4 %tmp.24;
+        symbol [ hotstreak %hotstreak.4 10 12 21 ];
+[ "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\LevelScreen.mc" 12 8 ]
+        [ "C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_LevelScreen_mc_6_29_48_4_start" "C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_LevelScreen_mc_6_29_48_4_stop" ]
+        %width.5 = local;
+        symbol [ width %width.5 12 12 17 ];
+        %tmp.25 = lgetv %dc;
+        symbol [ dc %tmp.25 12 21 23 ];
+        symbol [ getWidth %tmp.26 12 24 32 ];
+        %tmp.26 = getv function %tmp.25 :getWidth;
+        %tmp.27 = invoke %tmp.25 %tmp.26();
+        lputv %width.5 %tmp.27;
+        symbol [ width %width.5 12 12 17 ];
+[ "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\LevelScreen.mc" 13 8 ]
+        [ "C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_LevelScreen_mc_6_29_48_4_start" "C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_LevelScreen_mc_6_29_48_4_stop" ]
+        %height.6 = local;
+        symbol [ height %height.6 13 12 18 ];
+        %tmp.28 = lgetv %dc;
+        symbol [ dc %tmp.28 13 22 24 ];
+        symbol [ getHeight %tmp.29 13 25 34 ];
+        %tmp.29 = getv function %tmp.28 :getHeight;
+        %tmp.30 = invoke %tmp.28 %tmp.29();
+        lputv %height.6 %tmp.30;
+        symbol [ height %height.6 13 12 18 ];
+[ "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\LevelScreen.mc" 14 8 ]
+        [ "C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_LevelScreen_mc_6_29_48_4_start" "C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_LevelScreen_mc_6_29_48_4_stop" ]
+        %minimalWatches.7 = local;
+        symbol [ minimalWatches %minimalWatches.7 14 12 26 ];
+        %tmp.31 = 219;
+        lputv %minimalWatches.7 %tmp.31;
+        symbol [ minimalWatches %minimalWatches.7 14 12 26 ];
+[ "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\LevelScreen.mc" 16 8 ]
+        [ "C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_LevelScreen_mc_6_29_48_4_start" "C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_LevelScreen_mc_6_29_48_4_stop" ]
+        %barW.8 = local;
+        symbol [ barW %barW.8 16 12 16 ];
+        %tmp.32 = lgetv %width.5;
+        symbol [ width %tmp.32 16 19 24 ];
+        %tmp.33 = 0.462;
+        %tmp.34 = mul %tmp.32 %tmp.33;
+        lputv %barW.8 %tmp.34;
+        symbol [ barW %barW.8 16 12 16 ];
+[ "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\LevelScreen.mc" 17 8 ]
+        [ "C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_LevelScreen_mc_6_29_48_4_start" "C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_LevelScreen_mc_6_29_48_4_stop" ]
+        %barH.9 = local;
+        symbol [ barH %barH.9 17 12 16 ];
+        %tmp.35 = lgetv %height.6;
+        symbol [ height %tmp.35 17 19 25 ];
+        %tmp.36 = 0.058;
+        %tmp.37 = mul %tmp.35 %tmp.36;
+        lputv %barH.9 %tmp.37;
+        symbol [ barH %barH.9 17 12 16 ];
+[ "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\LevelScreen.mc" 37 8 ]
+C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_LevelScreen_mc_37_8_43_8_if_stmt:
+        %tmp.38 = lgetv %width.5;
+        symbol [ width %tmp.38 37 11 16 ];
+        %tmp.39 = lgetv %minimalWatches.7;
+        symbol [ minimalWatches %tmp.39 37 20 34 ];
+        %tmp.40 = 30;
+        %tmp.41 = sub %tmp.39 %tmp.40;
+        %tmp.42 = gt %tmp.38 %tmp.41;
+        bf %tmp.42 @C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_LevelScreen_mc_37_8_43_8_if_else_false;
+C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_LevelScreen_mc_37_8_43_8_if_true:
+C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_LevelScreen_mc_37_39_40_8_start:
+[ "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\LevelScreen.mc" 38 12 ]
+        %tmp.43 = lgetv %dc;
+        symbol [ dc %tmp.43 38 12 14 ];
+        symbol [ drawText %tmp.44 38 15 23 ];
+        %tmp.44 = getv function %tmp.43 :drawText;
+        %tmp.45 = lgetv %width.5;
+        symbol [ width %tmp.45 38 24 29 ];
+        %tmp.46 = 2;
+        %tmp.47 = div %tmp.45 %tmp.46;
+        %tmp.48 = lgetv %height.6;
+        symbol [ height %tmp.48 38 33 39 ];
+        %tmp.49 = 0.231;
+        %tmp.50 = mul %tmp.48 %tmp.49;
+        symbol [ Graphics %tmp.51 38 49 57 ];
+        %tmp.51 = getm $.Toybox.Graphics;
+        symbol [ FONT_SMALL %tmp.52 38 58 68 ];
+        %tmp.52 = getv %tmp.51 :FONT_SMALL;
+        %tmp.53 = "Level: ";
+        %tmp.54 = lgetv %level.1;
+        symbol [ level %tmp.54 38 82 87 ];
+        %tmp.55 = add %tmp.53 %tmp.54;
+        symbol [ Graphics %tmp.56 38 89 97 ];
+        %tmp.56 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.57 38 98 117 ];
+        %tmp.57 = getv %tmp.56 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.43 %tmp.44(%tmp.47, %tmp.50, %tmp.52, %tmp.55, %tmp.57);
+[ "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\LevelScreen.mc" 39 12 ]
+        %tmp.58 = self;
+        symbol [ drawLevelBar %tmp.59 39 12 24 ];
+        %tmp.59 = getv function %tmp.58 :drawLevelBar;
+        %tmp.60 = lgetv %dc;
+        symbol [ dc %tmp.60 39 25 27 ];
+        %tmp.61 = lgetv %width.5;
+        symbol [ width %tmp.61 39 30 35 ];
+        %tmp.62 = lgetv %barW.8;
+        symbol [ barW %tmp.62 39 38 42 ];
+        %tmp.63 = sub %tmp.61 %tmp.62;
+        %tmp.64 = 2;
+        %tmp.65 = div %tmp.63 %tmp.64;
+        %tmp.66 = lgetv %height.6;
+        symbol [ height %tmp.66 39 47 53 ];
+        %tmp.67 = 0.346;
+        %tmp.68 = mul %tmp.66 %tmp.67;
+        %tmp.69 = lgetv %barW.8;
+        symbol [ barW %tmp.69 39 63 67 ];
+        %tmp.70 = lgetv %barH.9;
+        symbol [ barH %tmp.70 39 69 73 ];
+        %tmp.71 = lgetv %progress.2;
+        symbol [ progress %tmp.71 39 75 83 ];
+        %tmp.72 = lgetv %needed.3;
+        symbol [ needed %tmp.72 39 85 91 ];
+        invoke %tmp.58 %tmp.59(%tmp.60, %tmp.65, %tmp.68, %tmp.69, %tmp.70, %tmp.71, %tmp.72);
+C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_LevelScreen_mc_37_39_40_8_stop:
+        goto @C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_LevelScreen_mc_37_8_43_8_if_end;
+C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_LevelScreen_mc_37_8_43_8_if_else_false:
+C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_LevelScreen_mc_40_13_43_8_start:
+[ "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\LevelScreen.mc" 41 12 ]
+        %tmp.73 = lgetv %dc;
+        symbol [ dc %tmp.73 41 12 14 ];
+        symbol [ drawText %tmp.74 41 15 23 ];
+        %tmp.74 = getv function %tmp.73 :drawText;
+        %tmp.75 = 10;
+        %tmp.76 = lgetv %height.6;
+        symbol [ height %tmp.76 41 28 34 ];
+        %tmp.77 = 0.131;
+        %tmp.78 = mul %tmp.76 %tmp.77;
+        symbol [ Graphics %tmp.79 41 44 52 ];
+        %tmp.79 = getm $.Toybox.Graphics;
+        symbol [ FONT_SMALL %tmp.80 41 53 63 ];
+        %tmp.80 = getv %tmp.79 :FONT_SMALL;
+        %tmp.81 = "Level: ";
+        %tmp.82 = lgetv %level.1;
+        symbol [ level %tmp.82 41 77 82 ];
+        %tmp.83 = add %tmp.81 %tmp.82;
+        symbol [ Graphics %tmp.84 41 84 92 ];
+        %tmp.84 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_LEFT %tmp.85 41 93 110 ];
+        %tmp.85 = getv %tmp.84 :TEXT_JUSTIFY_LEFT;
+        invoke %tmp.73 %tmp.74(%tmp.75, %tmp.78, %tmp.80, %tmp.83, %tmp.85);
+[ "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\LevelScreen.mc" 42 12 ]
+        %tmp.86 = self;
+        symbol [ drawLevelBar %tmp.87 42 12 24 ];
+        %tmp.87 = getv function %tmp.86 :drawLevelBar;
+        %tmp.88 = lgetv %dc;
+        symbol [ dc %tmp.88 42 25 27 ];
+        %tmp.89 = 10;
+        %tmp.90 = lgetv %height.6;
+        symbol [ height %tmp.90 42 34 40 ];
+        %tmp.91 = 0.246;
+        %tmp.92 = mul %tmp.90 %tmp.91;
+        %tmp.93 = 5;
+        %tmp.94 = add %tmp.92 %tmp.93;
+        %tmp.95 = lgetv %barW.8;
+        symbol [ barW %tmp.95 42 54 58 ];
+        %tmp.96 = lgetv %barH.9;
+        symbol [ barH %tmp.96 42 60 64 ];
+        %tmp.97 = lgetv %progress.2;
+        symbol [ progress %tmp.97 42 66 74 ];
+        %tmp.98 = lgetv %needed.3;
+        symbol [ needed %tmp.98 42 76 82 ];
+        invoke %tmp.86 %tmp.87(%tmp.88, %tmp.89, %tmp.94, %tmp.95, %tmp.96, %tmp.97, %tmp.98);
+C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_LevelScreen_mc_40_13_43_8_stop:
+C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_LevelScreen_mc_37_8_43_8_if_end:
+[ "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\LevelScreen.mc" 45 8 ]
+        %tmp.99 = lgetv %dc;
+        symbol [ dc %tmp.99 45 8 10 ];
+        symbol [ drawText %tmp.100 45 11 19 ];
+        %tmp.100 = getv function %tmp.99 :drawText;
+        %tmp.101 = lgetv %width.5;
+        symbol [ width %tmp.101 45 20 25 ];
+        %tmp.102 = 2;
+        %tmp.103 = div %tmp.101 %tmp.102;
+        %tmp.104 = lgetv %height.6;
+        symbol [ height %tmp.104 45 29 35 ];
+        %tmp.105 = 0.423;
+        %tmp.106 = mul %tmp.104 %tmp.105;
+        symbol [ Graphics %tmp.107 45 45 53 ];
+        %tmp.107 = getm $.Toybox.Graphics;
+        symbol [ FONT_SMALL %tmp.108 45 54 64 ];
+        %tmp.108 = getv %tmp.107 :FONT_SMALL;
+        %tmp.109 = "Progress: ";
+        %tmp.110 = lgetv %progress.2;
+        symbol [ progress %tmp.110 45 81 89 ];
+        %tmp.111 = add %tmp.109 %tmp.110;
+        %tmp.112 = "/";
+        %tmp.113 = add %tmp.111 %tmp.112;
+        %tmp.114 = lgetv %needed.3;
+        symbol [ needed %tmp.114 45 98 104 ];
+        %tmp.115 = add %tmp.113 %tmp.114;
+        symbol [ Graphics %tmp.116 45 106 114 ];
+        %tmp.116 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.117 45 115 134 ];
+        %tmp.117 = getv %tmp.116 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.99 %tmp.100(%tmp.103, %tmp.106, %tmp.108, %tmp.115, %tmp.117);
+[ "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\LevelScreen.mc" 46 8 ]
+        %tmp.118 = lgetv %dc;
+        symbol [ dc %tmp.118 46 8 10 ];
+        symbol [ drawText %tmp.119 46 11 19 ];
+        %tmp.119 = getv function %tmp.118 :drawText;
+        %tmp.120 = lgetv %width.5;
+        symbol [ width %tmp.120 46 20 25 ];
+        %tmp.121 = 0.231;
+        %tmp.122 = mul %tmp.120 %tmp.121;
+        %tmp.123 = lgetv %height.6;
+        symbol [ height %tmp.123 46 35 41 ];
+        %tmp.124 = 0.577;
+        %tmp.125 = mul %tmp.123 %tmp.124;
+        symbol [ Graphics %tmp.126 46 51 59 ];
+        %tmp.126 = getm $.Toybox.Graphics;
+        symbol [ FONT_SMALL %tmp.127 46 60 70 ];
+        %tmp.127 = getv %tmp.126 :FONT_SMALL;
+        %tmp.128 = "Hotstreak: ";
+        %tmp.129 = lgetv %hotstreak.4;
+        symbol [ hotstreak %tmp.129 46 88 97 ];
+        %tmp.130 = add %tmp.128 %tmp.129;
+        symbol [ Graphics %tmp.131 46 99 107 ];
+        %tmp.131 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_LEFT %tmp.132 46 108 125 ];
+        %tmp.132 = getv %tmp.131 :TEXT_JUSTIFY_LEFT;
+        invoke %tmp.118 %tmp.119(%tmp.122, %tmp.125, %tmp.127, %tmp.130, %tmp.132);
+C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_LevelScreen_mc_6_29_48_4_stop:
+    }
+    [ @file = "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\LevelScreen.mc"; @line = 51; @symbol_functiondef = [drawLevelBar,51,13,25]; @symbol_param<0> = [dc,51,26,28]; @symbol_param<1> = [middle_x,51,30,38]; @symbol_param<2> = [y,51,40,41]; @symbol_param<3> = [barW,51,43,47]; @symbol_param<4> = [barH,51,49,53]; @symbol_param<5> = [progress,51,55,63]; @symbol_param<6> = [needed,51,65,71]; ]
+    function drawLevelBar(dc, middle_x, y, barW, barH, progress, needed) {
+C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_LevelScreen_mc_51_73_66_4_start:
+[ "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\LevelScreen.mc" 52 8 ]
+        [ "C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_LevelScreen_mc_51_73_66_4_start" "C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_LevelScreen_mc_51_73_66_4_stop" ]
+        %percentual_needed.1 = local;
+        symbol [ percentual_needed %percentual_needed.1 52 12 29 ];
+        %tmp.1 = lgetv %progress;
+        symbol [ progress %tmp.1 52 32 40 ];
+        %tmp.2 = 1.0;
+        %tmp.3 = mul %tmp.1 %tmp.2;
+        %tmp.4 = lgetv %needed;
+        symbol [ needed %tmp.4 52 49 55 ];
+        %tmp.5 = div %tmp.3 %tmp.4;
+        lputv %percentual_needed.1 %tmp.5;
+        symbol [ percentual_needed %percentual_needed.1 52 12 29 ];
+[ "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\LevelScreen.mc" 53 8 ]
+C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_LevelScreen_mc_53_8_53_60_if_stmt:
+        %tmp.6 = lgetv %percentual_needed.1;
+        symbol [ percentual_needed %tmp.6 53 12 29 ];
+        %tmp.7 = 1;
+        %tmp.8 = gt %tmp.6 %tmp.7;
+        bf %tmp.8 @C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_LevelScreen_mc_53_8_53_60_if_end;
+C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_LevelScreen_mc_53_8_53_60_if_true:
+C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_LevelScreen_mc_53_35_53_60_start:
+[ "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\LevelScreen.mc" 53 37 ]
+        %tmp.9 = 1;
+        lputv %percentual_needed.1 %tmp.9;
+        symbol [ percentual_needed %percentual_needed.1 53 37 54 ];
+C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_LevelScreen_mc_53_35_53_60_stop:
+        goto @C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_LevelScreen_mc_53_8_53_60_if_end;
+C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_LevelScreen_mc_53_8_53_60_if_end:
+[ "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\LevelScreen.mc" 56 8 ]
+        %tmp.10 = lgetv %dc;
+        symbol [ dc %tmp.10 56 8 10 ];
+        symbol [ setColor %tmp.11 56 11 19 ];
+        %tmp.11 = getv function %tmp.10 :setColor;
+        symbol [ Graphics %tmp.12 56 20 28 ];
+        %tmp.12 = getm $.Toybox.Graphics;
+        symbol [ COLOR_WHITE %tmp.13 56 29 40 ];
+        %tmp.13 = getv %tmp.12 :COLOR_WHITE;
+        symbol [ Graphics %tmp.14 56 42 50 ];
+        %tmp.14 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.15 56 51 68 ];
+        %tmp.15 = getv %tmp.14 :COLOR_TRANSPARENT;
+        invoke %tmp.10 %tmp.11(%tmp.13, %tmp.15);
+[ "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\LevelScreen.mc" 57 8 ]
+        %tmp.16 = lgetv %dc;
+        symbol [ dc %tmp.16 57 8 10 ];
+        symbol [ drawRectangle %tmp.17 57 11 24 ];
+        %tmp.17 = getv function %tmp.16 :drawRectangle;
+        %tmp.18 = lgetv %middle_x;
+        symbol [ middle_x %tmp.18 57 25 33 ];
+        %tmp.19 = lgetv %y;
+        symbol [ y %tmp.19 57 35 36 ];
+        %tmp.20 = lgetv %barW;
+        symbol [ barW %tmp.20 57 38 42 ];
+        %tmp.21 = lgetv %barH;
+        symbol [ barH %tmp.21 57 44 48 ];
+        invoke %tmp.16 %tmp.17(%tmp.18, %tmp.19, %tmp.20, %tmp.21);
+[ "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\LevelScreen.mc" 59 8 ]
+        %tmp.22 = lgetv %barW;
+        symbol [ barW %tmp.22 59 8 12 ];
+        %tmp.23 = 4;
+        %tmp.24 = sub %tmp.22 %tmp.23;
+        lputv %barW %tmp.24;
+        symbol [ barW %barW 59 8 12 ];
+[ "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\LevelScreen.mc" 61 8 ]
+        %tmp.25 = lgetv %dc;
+        symbol [ dc %tmp.25 61 8 10 ];
+        symbol [ setColor %tmp.26 61 11 19 ];
+        %tmp.26 = getv function %tmp.25 :setColor;
+        symbol [ Graphics %tmp.27 61 20 28 ];
+        %tmp.27 = getm $.Toybox.Graphics;
+        symbol [ COLOR_BLUE %tmp.28 61 29 39 ];
+        %tmp.28 = getv %tmp.27 :COLOR_BLUE;
+        symbol [ Graphics %tmp.29 61 41 49 ];
+        %tmp.29 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.30 61 50 67 ];
+        %tmp.30 = getv %tmp.29 :COLOR_TRANSPARENT;
+        invoke %tmp.25 %tmp.26(%tmp.28, %tmp.30);
+[ "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\LevelScreen.mc" 62 8 ]
+        %tmp.31 = lgetv %dc;
+        symbol [ dc %tmp.31 62 8 10 ];
+        symbol [ fillRectangle %tmp.32 62 11 24 ];
+        %tmp.32 = getv function %tmp.31 :fillRectangle;
+        %tmp.33 = lgetv %middle_x;
+        symbol [ middle_x %tmp.33 62 25 33 ];
+        %tmp.34 = 2;
+        %tmp.35 = add %tmp.33 %tmp.34;
+        %tmp.36 = lgetv %y;
+        symbol [ y %tmp.36 62 37 38 ];
+        %tmp.37 = 2;
+        %tmp.38 = add %tmp.36 %tmp.37;
+        %tmp.39 = lgetv %barW;
+        symbol [ barW %tmp.39 62 42 46 ];
+        %tmp.40 = lgetv %percentual_needed.1;
+        symbol [ percentual_needed %tmp.40 62 49 66 ];
+        %tmp.41 = mul %tmp.39 %tmp.40;
+        %tmp.42 = lgetv %barH;
+        symbol [ barH %tmp.42 62 68 72 ];
+        %tmp.43 = 4;
+        %tmp.44 = sub %tmp.42 %tmp.43;
+        invoke %tmp.31 %tmp.32(%tmp.35, %tmp.38, %tmp.41, %tmp.44);
+[ "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\LevelScreen.mc" 65 8 ]
+        %tmp.45 = lgetv %dc;
+        symbol [ dc %tmp.45 65 8 10 ];
+        symbol [ setColor %tmp.46 65 11 19 ];
+        %tmp.46 = getv function %tmp.45 :setColor;
+        symbol [ Graphics %tmp.47 65 20 28 ];
+        %tmp.47 = getm $.Toybox.Graphics;
+        symbol [ COLOR_WHITE %tmp.48 65 29 40 ];
+        %tmp.48 = getv %tmp.47 :COLOR_WHITE;
+        symbol [ Graphics %tmp.49 65 42 50 ];
+        %tmp.49 = getm $.Toybox.Graphics;
+        symbol [ COLOR_BLACK %tmp.50 65 51 62 ];
+        %tmp.50 = getv %tmp.49 :COLOR_BLACK;
+        invoke %tmp.45 %tmp.46(%tmp.48, %tmp.50);
+C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_LevelScreen_mc_51_73_66_4_stop:
+    }
+}
+[ @file = "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\LevelScreen.mc"; @line = 1; ]
+<init> {
+}

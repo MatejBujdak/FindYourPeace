@@ -1,0 +1,334 @@
+[ @file = "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\FindYourPeaceDelegate.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Lang,1,14,18]; ]
+import Toybox.Lang;
+[ @file = "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\FindYourPeaceDelegate.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [WatchUi,2,14,21]; ]
+import Toybox.WatchUi;
+[ @file = "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\FindYourPeaceDelegate.mc"; @line = 4; @symbol_classdef = [FindYourPeaceDelegate,4,6,27]; @symbol_extends<0> = [WatchUi,4,36,43]; @symbol_extends<1> = [BehaviorDelegate,4,44,60]; ]
+class FindYourPeaceDelegate extends WatchUi.BehaviorDelegate {
+    [ @file = "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\FindYourPeaceDelegate.mc"; @line = 4; ]
+    <init> {
+    }
+    [ @file = "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\FindYourPeaceDelegate.mc"; @line = 4; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\FindYourPeaceDelegate.mc"; @line = 6; @symbol_functiondef = [initialize,6,13,23]; ]
+    function initialize() as Void {
+C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_FindYourPeaceDelegate_mc_6_26_8_4_start:
+[ "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\FindYourPeaceDelegate.mc" 7 8 ]
+        symbol [ BehaviorDelegate %tmp.2 7 8 24 ];
+        %tmp.2 = getv ? :BehaviorDelegate;
+        symbol [ initialize %tmp.3 7 25 35 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_FindYourPeaceDelegate_mc_6_26_8_4_stop:
+    }
+    [ @file = "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\FindYourPeaceDelegate.mc"; @line = 10; @symbol_functiondef = [onMenu,10,13,19]; @symbol_return<0> = [Boolean,10,25,32]; ]
+    function onMenu() as Boolean {
+C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_FindYourPeaceDelegate_mc_10_33_13_4_start:
+[ "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\FindYourPeaceDelegate.mc" 11 8 ]
+        symbol [ WatchUi %tmp.1 11 8 15 ];
+        %tmp.1 = getm $.Toybox.WatchUi;
+        symbol [ pushView %tmp.2 11 16 24 ];
+        %tmp.2 = getv function %tmp.1 :pushView;
+        symbol [ Rez %tmp.6 11 29 32 ];
+        %tmp.6 = getv ? :Rez;
+        symbol [ Menus %tmp.7 11 33 38 ];
+        %tmp.7 = getv %tmp.6 :Menus;
+        symbol [ MainMenu %tmp.8 11 39 47 ];
+        %tmp.8 = getv function ? %tmp.7 :MainMenu;
+        %tmp.3 = newc %tmp.8 ();
+        symbol [ FindYourPeaceMenuDelegate %tmp.12 11 55 80 ];
+        %tmp.12 = getv ? :FindYourPeaceMenuDelegate;
+        %tmp.9 = newc %tmp.12 ();
+        symbol [ WatchUi %tmp.13 11 84 91 ];
+        %tmp.13 = getm $.Toybox.WatchUi;
+        symbol [ SLIDE_UP %tmp.14 11 92 100 ];
+        %tmp.14 = getv %tmp.13 :SLIDE_UP;
+        invoke %tmp.1 %tmp.2(%tmp.3, %tmp.9, %tmp.14);
+[ "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\FindYourPeaceDelegate.mc" 12 8 ]
+        %tmp.15 = true;
+        ret %tmp.15;
+C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_FindYourPeaceDelegate_mc_10_33_13_4_stop:
+    }
+    [ @file = "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\FindYourPeaceDelegate.mc"; @line = 15; @symbol_functiondef = [onKey,15,13,18]; @symbol_param<0> = [keyEvent,15,19,27]; ]
+    function onKey(keyEvent) {
+C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_FindYourPeaceDelegate_mc_15_29_33_4_start:
+[ "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\FindYourPeaceDelegate.mc" 16 8 ]
+        [ "C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_FindYourPeaceDelegate_mc_15_29_33_4_start" "C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_FindYourPeaceDelegate_mc_15_29_33_4_stop" ]
+        %key.1 = local;
+        symbol [ key %key.1 16 12 15 ];
+        %tmp.1 = lgetv %keyEvent;
+        symbol [ keyEvent %tmp.1 16 18 26 ];
+        symbol [ getKey %tmp.2 16 27 33 ];
+        %tmp.2 = getv function %tmp.1 :getKey;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        lputv %key.1 %tmp.3;
+        symbol [ key %key.1 16 12 15 ];
+[ "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\FindYourPeaceDelegate.mc" 17 8 ]
+C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_FindYourPeaceDelegate_mc_17_8_22_8_if_stmt:
+        symbol [ Application %tmp.5 17 11 22 ];
+        %tmp.5 = getv ? :Application;
+        symbol [ Storage %tmp.6 17 23 30 ];
+        %tmp.6 = getv %tmp.5 :Storage;
+        symbol [ getValue %tmp.7 17 31 39 ];
+        %tmp.7 = getv function %tmp.6 :getValue;
+        %tmp.8 = "currentScreen";
+        %tmp.9 = invoke %tmp.6 %tmp.7(%tmp.8);
+        %tmp.10 = 2;
+        %tmp.11 = eq %tmp.9 %tmp.10;
+        bf %tmp.11 @C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_FindYourPeaceDelegate_mc_17_8_22_8_if_end;
+C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_FindYourPeaceDelegate_mc_17_8_22_8_if_true:
+C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_FindYourPeaceDelegate_mc_17_62_22_8_start:
+[ "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\FindYourPeaceDelegate.mc" 18 12 ]
+C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_FindYourPeaceDelegate_mc_18_12_21_12_if_stmt:
+        %tmp.12 = lgetv %key.1;
+        symbol [ key %tmp.12 18 15 18 ];
+        %tmp.13 = 4;
+        %tmp.14 = eq %tmp.12 %tmp.13;
+        bf %tmp.14 @C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_FindYourPeaceDelegate_mc_18_12_21_12_if_end;
+C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_FindYourPeaceDelegate_mc_18_12_21_12_if_true:
+C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_FindYourPeaceDelegate_mc_18_24_21_12_start:
+[ "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\FindYourPeaceDelegate.mc" 19 16 ]
+        symbol [ System %tmp.16 19 16 22 ];
+        %tmp.16 = getv ? :System;
+        symbol [ println %tmp.17 19 23 30 ];
+        %tmp.17 = getv function %tmp.16 :println;
+        %tmp.18 = "Aktivita zacata";
+        invoke %tmp.16 %tmp.17(%tmp.18);
+[ "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\FindYourPeaceDelegate.mc" 20 16 ]
+        symbol [ Application %tmp.20 20 16 27 ];
+        %tmp.20 = getv ? :Application;
+        symbol [ Storage %tmp.21 20 28 35 ];
+        %tmp.21 = getv %tmp.20 :Storage;
+        symbol [ setValue %tmp.22 20 36 44 ];
+        %tmp.22 = getv function %tmp.21 :setValue;
+        %tmp.23 = "Activity";
+        %tmp.24 = 1;
+        invoke %tmp.21 %tmp.22(%tmp.23, %tmp.24);
+C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_FindYourPeaceDelegate_mc_18_24_21_12_stop:
+        goto @C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_FindYourPeaceDelegate_mc_18_12_21_12_if_end;
+C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_FindYourPeaceDelegate_mc_18_12_21_12_if_end:
+C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_FindYourPeaceDelegate_mc_17_62_22_8_stop:
+        goto @C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_FindYourPeaceDelegate_mc_17_8_22_8_if_end;
+C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_FindYourPeaceDelegate_mc_17_8_22_8_if_end:
+[ "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\FindYourPeaceDelegate.mc" 24 8 ]
+C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_FindYourPeaceDelegate_mc_24_8_31_8_if_stmt:
+        %tmp.25 = lgetv %key.1;
+        symbol [ key %tmp.25 24 11 14 ];
+        symbol [ KEY_DOWN %tmp.27 24 18 26 ];
+        %tmp.27 = getv ? :KEY_DOWN;
+        %tmp.28 = eq %tmp.25 %tmp.27;
+        bf %tmp.28 @C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_FindYourPeaceDelegate_mc_24_8_31_8_if_false;
+C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_FindYourPeaceDelegate_mc_24_8_31_8_if_true:
+C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_FindYourPeaceDelegate_mc_24_27_27_8_start:
+[ "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\FindYourPeaceDelegate.mc" 25 12 ]
+        %tmp.29 = self;
+        symbol [ checkScreen %tmp.30 25 12 23 ];
+        %tmp.30 = getv function %tmp.29 :checkScreen;
+        symbol [ Application %tmp.32 25 24 35 ];
+        %tmp.32 = getv ? :Application;
+        symbol [ Storage %tmp.33 25 36 43 ];
+        %tmp.33 = getv %tmp.32 :Storage;
+        symbol [ getValue %tmp.34 25 44 52 ];
+        %tmp.34 = getv function %tmp.33 :getValue;
+        %tmp.35 = "currentScreen";
+        %tmp.36 = invoke %tmp.33 %tmp.34(%tmp.35);
+        %tmp.37 = 1;
+        %tmp.38 = sub %tmp.36 %tmp.37;
+        invoke %tmp.29 %tmp.30(%tmp.38);
+[ "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\FindYourPeaceDelegate.mc" 26 12 ]
+        %tmp.39 = true;
+        ret %tmp.39;
+C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_FindYourPeaceDelegate_mc_24_27_27_8_stop:
+        goto @C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_FindYourPeaceDelegate_mc_24_8_31_8_if_end;
+C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_FindYourPeaceDelegate_mc_24_8_31_8_if_false:
+[ "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\FindYourPeaceDelegate.mc" 28 13 ]
+C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_FindYourPeaceDelegate_mc_28_13_31_8_if_stmt:
+        %tmp.40 = lgetv %key.1;
+        symbol [ key %tmp.40 28 16 19 ];
+        symbol [ KEY_UP %tmp.42 28 23 29 ];
+        %tmp.42 = getv ? :KEY_UP;
+        %tmp.43 = eq %tmp.40 %tmp.42;
+        bf %tmp.43 @C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_FindYourPeaceDelegate_mc_28_13_31_8_if_end;
+C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_FindYourPeaceDelegate_mc_28_13_31_8_if_true:
+C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_FindYourPeaceDelegate_mc_28_30_31_8_start:
+[ "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\FindYourPeaceDelegate.mc" 29 12 ]
+        %tmp.44 = self;
+        symbol [ checkScreen %tmp.45 29 12 23 ];
+        %tmp.45 = getv function %tmp.44 :checkScreen;
+        symbol [ Application %tmp.47 29 24 35 ];
+        %tmp.47 = getv ? :Application;
+        symbol [ Storage %tmp.48 29 36 43 ];
+        %tmp.48 = getv %tmp.47 :Storage;
+        symbol [ getValue %tmp.49 29 44 52 ];
+        %tmp.49 = getv function %tmp.48 :getValue;
+        %tmp.50 = "currentScreen";
+        %tmp.51 = invoke %tmp.48 %tmp.49(%tmp.50);
+        %tmp.52 = 1;
+        %tmp.53 = add %tmp.51 %tmp.52;
+        invoke %tmp.44 %tmp.45(%tmp.53);
+[ "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\FindYourPeaceDelegate.mc" 30 12 ]
+        %tmp.54 = true;
+        ret %tmp.54;
+C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_FindYourPeaceDelegate_mc_28_30_31_8_stop:
+        goto @C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_FindYourPeaceDelegate_mc_28_13_31_8_if_end;
+C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_FindYourPeaceDelegate_mc_28_13_31_8_if_end:
+C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_FindYourPeaceDelegate_mc_24_8_31_8_if_end:
+[ "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\FindYourPeaceDelegate.mc" 32 8 ]
+        %tmp.55 = false;
+        ret %tmp.55;
+C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_FindYourPeaceDelegate_mc_15_29_33_4_stop:
+    }
+    [ @file = "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\FindYourPeaceDelegate.mc"; @line = 35; @symbol_functiondef = [onSwipe,35,13,20]; @symbol_param<0> = [swipeEvent,35,21,31]; ]
+    function onSwipe(swipeEvent) {
+C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_FindYourPeaceDelegate_mc_35_33_47_4_start:
+[ "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\FindYourPeaceDelegate.mc" 37 8 ]
+        [ "C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_FindYourPeaceDelegate_mc_35_33_47_4_start" "C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_FindYourPeaceDelegate_mc_35_33_47_4_stop" ]
+        %direction.1 = local;
+        symbol [ direction %direction.1 37 12 21 ];
+        %tmp.1 = lgetv %swipeEvent;
+        symbol [ swipeEvent %tmp.1 37 24 34 ];
+        symbol [ getDirection %tmp.2 37 35 47 ];
+        %tmp.2 = getv function %tmp.1 :getDirection;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        lputv %direction.1 %tmp.3;
+        symbol [ direction %direction.1 37 12 21 ];
+[ "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\FindYourPeaceDelegate.mc" 38 8 ]
+C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_FindYourPeaceDelegate_mc_38_8_45_8_if_stmt:
+        %tmp.4 = lgetv %direction.1;
+        symbol [ direction %tmp.4 38 11 20 ];
+        symbol [ WatchUi %tmp.5 38 24 31 ];
+        %tmp.5 = getm $.Toybox.WatchUi;
+        symbol [ SWIPE_DOWN %tmp.6 38 32 42 ];
+        %tmp.6 = getv %tmp.5 :SWIPE_DOWN;
+        %tmp.7 = eq %tmp.4 %tmp.6;
+        bf %tmp.7 @C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_FindYourPeaceDelegate_mc_38_8_45_8_if_false;
+C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_FindYourPeaceDelegate_mc_38_8_45_8_if_true:
+C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_FindYourPeaceDelegate_mc_38_43_41_8_start:
+[ "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\FindYourPeaceDelegate.mc" 39 12 ]
+        %tmp.8 = self;
+        symbol [ checkScreen %tmp.9 39 12 23 ];
+        %tmp.9 = getv function %tmp.8 :checkScreen;
+        symbol [ Application %tmp.11 39 24 35 ];
+        %tmp.11 = getv ? :Application;
+        symbol [ Storage %tmp.12 39 36 43 ];
+        %tmp.12 = getv %tmp.11 :Storage;
+        symbol [ getValue %tmp.13 39 44 52 ];
+        %tmp.13 = getv function %tmp.12 :getValue;
+        %tmp.14 = "currentScreen";
+        %tmp.15 = invoke %tmp.12 %tmp.13(%tmp.14);
+        %tmp.16 = 1;
+        %tmp.17 = sub %tmp.15 %tmp.16;
+        invoke %tmp.8 %tmp.9(%tmp.17);
+[ "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\FindYourPeaceDelegate.mc" 40 12 ]
+        %tmp.18 = true;
+        ret %tmp.18;
+C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_FindYourPeaceDelegate_mc_38_43_41_8_stop:
+        goto @C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_FindYourPeaceDelegate_mc_38_8_45_8_if_end;
+C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_FindYourPeaceDelegate_mc_38_8_45_8_if_false:
+[ "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\FindYourPeaceDelegate.mc" 42 13 ]
+C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_FindYourPeaceDelegate_mc_42_13_45_8_if_stmt:
+        %tmp.19 = lgetv %direction.1;
+        symbol [ direction %tmp.19 42 16 25 ];
+        symbol [ WatchUi %tmp.20 42 29 36 ];
+        %tmp.20 = getm $.Toybox.WatchUi;
+        symbol [ SWIPE_UP %tmp.21 42 37 45 ];
+        %tmp.21 = getv %tmp.20 :SWIPE_UP;
+        %tmp.22 = eq %tmp.19 %tmp.21;
+        bf %tmp.22 @C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_FindYourPeaceDelegate_mc_42_13_45_8_if_end;
+C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_FindYourPeaceDelegate_mc_42_13_45_8_if_true:
+C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_FindYourPeaceDelegate_mc_42_46_45_8_start:
+[ "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\FindYourPeaceDelegate.mc" 43 12 ]
+        %tmp.23 = self;
+        symbol [ checkScreen %tmp.24 43 12 23 ];
+        %tmp.24 = getv function %tmp.23 :checkScreen;
+        symbol [ Application %tmp.26 43 24 35 ];
+        %tmp.26 = getv ? :Application;
+        symbol [ Storage %tmp.27 43 36 43 ];
+        %tmp.27 = getv %tmp.26 :Storage;
+        symbol [ getValue %tmp.28 43 44 52 ];
+        %tmp.28 = getv function %tmp.27 :getValue;
+        %tmp.29 = "currentScreen";
+        %tmp.30 = invoke %tmp.27 %tmp.28(%tmp.29);
+        %tmp.31 = 1;
+        %tmp.32 = add %tmp.30 %tmp.31;
+        invoke %tmp.23 %tmp.24(%tmp.32);
+[ "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\FindYourPeaceDelegate.mc" 44 12 ]
+        %tmp.33 = true;
+        ret %tmp.33;
+C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_FindYourPeaceDelegate_mc_42_46_45_8_stop:
+        goto @C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_FindYourPeaceDelegate_mc_42_13_45_8_if_end;
+C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_FindYourPeaceDelegate_mc_42_13_45_8_if_end:
+C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_FindYourPeaceDelegate_mc_38_8_45_8_if_end:
+[ "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\FindYourPeaceDelegate.mc" 46 8 ]
+        %tmp.34 = false;
+        ret %tmp.34;
+C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_FindYourPeaceDelegate_mc_35_33_47_4_stop:
+    }
+    [ @file = "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\FindYourPeaceDelegate.mc"; @line = 50; @symbol_functiondef = [checkScreen,50,13,24]; @symbol_param<0> = [current,50,25,32]; ]
+    function checkScreen(current) {
+C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_FindYourPeaceDelegate_mc_50_33_57_4_start:
+[ "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\FindYourPeaceDelegate.mc" 51 8 ]
+C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_FindYourPeaceDelegate_mc_51_8_55_8_if_stmt:
+        %tmp.1 = lgetv %current;
+        symbol [ current %tmp.1 51 11 18 ];
+        %tmp.2 = 1;
+        %tmp.3 = lt %tmp.1 %tmp.2;
+        bf %tmp.3 @C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_FindYourPeaceDelegate_mc_51_8_55_8_if_false;
+C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_FindYourPeaceDelegate_mc_51_8_55_8_if_true:
+C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_FindYourPeaceDelegate_mc_51_23_53_8_start:
+[ "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\FindYourPeaceDelegate.mc" 52 12 ]
+        symbol [ Application %tmp.5 52 22 33 ];
+        %tmp.5 = getv ? :Application;
+        symbol [ Storage %tmp.6 52 34 41 ];
+        %tmp.6 = getv %tmp.5 :Storage;
+        symbol [ getValue %tmp.7 52 42 50 ];
+        %tmp.7 = getv function %tmp.6 :getValue;
+        %tmp.8 = "numberofscreens";
+        %tmp.9 = invoke %tmp.6 %tmp.7(%tmp.8);
+        lputv %current %tmp.9;
+        symbol [ current %current 52 12 19 ];
+C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_FindYourPeaceDelegate_mc_51_23_53_8_stop:
+        goto @C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_FindYourPeaceDelegate_mc_51_8_55_8_if_end;
+C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_FindYourPeaceDelegate_mc_51_8_55_8_if_false:
+[ "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\FindYourPeaceDelegate.mc" 53 14 ]
+C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_FindYourPeaceDelegate_mc_53_14_55_8_if_stmt:
+        %tmp.10 = lgetv %current;
+        symbol [ current %tmp.10 53 18 25 ];
+        symbol [ Application %tmp.12 53 28 39 ];
+        %tmp.12 = getv ? :Application;
+        symbol [ Storage %tmp.13 53 40 47 ];
+        %tmp.13 = getv %tmp.12 :Storage;
+        symbol [ getValue %tmp.14 53 48 56 ];
+        %tmp.14 = getv function %tmp.13 :getValue;
+        %tmp.15 = "numberofscreens";
+        %tmp.16 = invoke %tmp.13 %tmp.14(%tmp.15);
+        %tmp.17 = gt %tmp.10 %tmp.16;
+        bf %tmp.17 @C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_FindYourPeaceDelegate_mc_53_14_55_8_if_end;
+C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_FindYourPeaceDelegate_mc_53_14_55_8_if_true:
+C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_FindYourPeaceDelegate_mc_53_76_55_8_start:
+[ "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\FindYourPeaceDelegate.mc" 54 12 ]
+        %tmp.18 = 1;
+        lputv %current %tmp.18;
+        symbol [ current %current 54 12 19 ];
+C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_FindYourPeaceDelegate_mc_53_76_55_8_stop:
+        goto @C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_FindYourPeaceDelegate_mc_53_14_55_8_if_end;
+C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_FindYourPeaceDelegate_mc_53_14_55_8_if_end:
+C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_FindYourPeaceDelegate_mc_51_8_55_8_if_end:
+[ "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\FindYourPeaceDelegate.mc" 56 8 ]
+        symbol [ Application %tmp.20 56 8 19 ];
+        %tmp.20 = getv ? :Application;
+        symbol [ Storage %tmp.21 56 20 27 ];
+        %tmp.21 = getv %tmp.20 :Storage;
+        symbol [ setValue %tmp.22 56 28 36 ];
+        %tmp.22 = getv function %tmp.21 :setValue;
+        %tmp.23 = "currentScreen";
+        %tmp.24 = lgetv %current;
+        symbol [ current %tmp.24 56 54 61 ];
+        invoke %tmp.21 %tmp.22(%tmp.23, %tmp.24);
+C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_FindYourPeaceDelegate_mc_50_33_57_4_stop:
+    }
+}
+[ @file = "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\FindYourPeaceDelegate.mc"; @line = 1; ]
+<init> {
+}

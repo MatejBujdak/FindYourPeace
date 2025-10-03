@@ -1,0 +1,221 @@
+[ @file = "c:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\Breathing.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [WatchUi,1,14,21]; ]
+import Toybox.WatchUi;
+[ @file = "c:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\Breathing.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [Graphics,2,14,22]; ]
+import Toybox.Graphics;
+[ @file = "c:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\Breathing.mc"; @line = 4; @symbol_classdef = [Breathing,4,6,15]; ]
+class Breathing {
+    [ @file = "c:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\Breathing.mc"; @line = 4; ]
+    <init> {
+    }
+    [ @file = "c:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\Breathing.mc"; @line = 4; ]
+    static
+    <init> {
+    }
+    [ @file = "c:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\Breathing.mc"; @line = 6; @position = 8; @symbol_vardef = [_startBreathing,6,8,23]; ]
+    var _startBreathing;
+    [ @file = "c:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\Breathing.mc"; @line = 8; @symbol_functiondef = [draw,8,13,17]; @symbol_param<0> = [dc,8,18,20]; @symbol_param<0>_type<0> = [Dc,8,24,26]; ]
+    function draw(dc as Dc) {
+c__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_Breathing_mc_8_28_28_4_start:
+[ "c:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\Breathing.mc" 10 8 ]
+c__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_Breathing_mc_10_8_12_8_if_stmt:
+c__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_Breathing_mc_10_12_10_83_begin:
+        symbol [ _startBreathing %tmp.2 10 12 27 ];
+        %tmp.2 = getv ? :_startBreathing;
+        %tmp.3 = null;
+        %tmp.4 = eq %tmp.2 %tmp.3;
+        bf %tmp.4 @c__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_Breathing_mc_10_8_12_8_if_end;
+c__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_Breathing_mc_10_39_10_83_true:
+        symbol [ Application %tmp.6 10 39 50 ];
+        %tmp.6 = getv ? :Application;
+        symbol [ Storage %tmp.7 10 51 58 ];
+        %tmp.7 = getv %tmp.6 :Storage;
+        symbol [ getValue %tmp.8 10 59 67 ];
+        %tmp.8 = getv function %tmp.7 :getValue;
+        %tmp.9 = "Activity";
+        %tmp.10 = invoke %tmp.7 %tmp.8(%tmp.9);
+        %tmp.11 = 1;
+        %tmp.12 = eq %tmp.10 %tmp.11;
+        push %tmp.12;
+c__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_Breathing_mc_10_39_10_83_end:
+        %tmp.13 = phi [%tmp.4 @c__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_Breathing_mc_10_12_10_83_begin] [%tmp.12 @c__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_Breathing_mc_10_39_10_83_true] [%tmp.13 @c__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_Breathing_mc_10_39_10_83_end];
+        bf %tmp.13 @c__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_Breathing_mc_10_8_12_8_if_end;
+c__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_Breathing_mc_10_8_12_8_if_true:
+c__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_Breathing_mc_10_86_12_8_start:
+[ "c:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\Breathing.mc" 11 12 ]
+        symbol [ StartBreathing %tmp.17 11 34 48 ];
+        %tmp.17 = getv ? :StartBreathing;
+        %tmp.14 = newc %tmp.17 ();
+        symbol [ _startBreathing ? 11 12 27 ];
+        putv self :_startBreathing %tmp.14;
+c__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_Breathing_mc_10_86_12_8_stop:
+        goto @c__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_Breathing_mc_10_8_12_8_if_end;
+c__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_Breathing_mc_10_8_12_8_if_end:
+[ "c:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\Breathing.mc" 14 8 ]
+c__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_Breathing_mc_14_8_18_8_if_stmt:
+c__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_Breathing_mc_14_12_14_83_begin:
+        symbol [ _startBreathing %tmp.19 14 12 27 ];
+        %tmp.19 = getv ? :_startBreathing;
+        %tmp.20 = null;
+        %tmp.21 = ne %tmp.19 %tmp.20;
+        bf %tmp.21 @c__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_Breathing_mc_14_8_18_8_if_end;
+c__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_Breathing_mc_14_39_14_83_true:
+        symbol [ Application %tmp.23 14 39 50 ];
+        %tmp.23 = getv ? :Application;
+        symbol [ Storage %tmp.24 14 51 58 ];
+        %tmp.24 = getv %tmp.23 :Storage;
+        symbol [ getValue %tmp.25 14 59 67 ];
+        %tmp.25 = getv function %tmp.24 :getValue;
+        %tmp.26 = "Activity";
+        %tmp.27 = invoke %tmp.24 %tmp.25(%tmp.26);
+        %tmp.28 = 1;
+        %tmp.29 = eq %tmp.27 %tmp.28;
+        push %tmp.29;
+c__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_Breathing_mc_14_39_14_83_end:
+        %tmp.30 = phi [%tmp.21 @c__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_Breathing_mc_14_12_14_83_begin] [%tmp.29 @c__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_Breathing_mc_14_39_14_83_true] [%tmp.30 @c__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_Breathing_mc_14_39_14_83_end];
+        bf %tmp.30 @c__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_Breathing_mc_14_8_18_8_if_end;
+c__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_Breathing_mc_14_8_18_8_if_true:
+c__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_Breathing_mc_14_86_18_8_start:
+[ "c:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\Breathing.mc" 15 12 ]
+        %tmp.31 = lgetv %dc;
+        symbol [ dc %tmp.31 15 12 14 ];
+        symbol [ clear %tmp.32 15 15 20 ];
+        %tmp.32 = getv function %tmp.31 :clear;
+        invoke %tmp.31 %tmp.32();
+[ "c:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\Breathing.mc" 16 12 ]
+        symbol [ _startBreathing %tmp.34 16 12 27 ];
+        %tmp.34 = getv ? :_startBreathing;
+        symbol [ draw %tmp.35 16 28 32 ];
+        %tmp.35 = getv function %tmp.34 :draw;
+        %tmp.36 = lgetv %dc;
+        symbol [ dc %tmp.36 16 33 35 ];
+        invoke %tmp.34 %tmp.35(%tmp.36);
+[ "c:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\Breathing.mc" 17 12 ]
+        ret ?;
+c__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_Breathing_mc_14_86_18_8_stop:
+        goto @c__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_Breathing_mc_14_8_18_8_if_end;
+c__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_Breathing_mc_14_8_18_8_if_end:
+[ "c:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\Breathing.mc" 20 8 ]
+        %tmp.37 = lgetv %dc;
+        symbol [ dc %tmp.37 20 8 10 ];
+        symbol [ drawText %tmp.38 20 11 19 ];
+        %tmp.38 = getv function %tmp.37 :drawText;
+        symbol [ FindYourPeaceView %tmp.40 20 20 37 ];
+        %tmp.40 = getv ? :FindYourPeaceView;
+        symbol [ width %tmp.41 20 38 43 ];
+        %tmp.41 = getv %tmp.40 :width;
+        %tmp.42 = 2;
+        %tmp.43 = div %tmp.41 %tmp.42;
+        symbol [ FindYourPeaceView %tmp.45 20 47 64 ];
+        %tmp.45 = getv ? :FindYourPeaceView;
+        symbol [ height %tmp.46 20 65 71 ];
+        %tmp.46 = getv %tmp.45 :height;
+        %tmp.47 = 2;
+        %tmp.48 = div %tmp.46 %tmp.47;
+        symbol [ Graphics %tmp.49 20 75 83 ];
+        %tmp.49 = getm $.Toybox.Graphics;
+        symbol [ FONT_SMALL %tmp.50 20 84 94 ];
+        %tmp.50 = getv %tmp.49 :FONT_SMALL;
+        %tmp.51 = "Resonant breathing";
+        symbol [ Graphics %tmp.52 20 118 126 ];
+        %tmp.52 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.53 20 127 146 ];
+        %tmp.53 = getv %tmp.52 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.37 %tmp.38(%tmp.43, %tmp.48, %tmp.50, %tmp.51, %tmp.53);
+[ "c:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\Breathing.mc" 22 8 ]
+        %tmp.54 = lgetv %dc;
+        symbol [ dc %tmp.54 22 8 10 ];
+        symbol [ setColor %tmp.55 22 11 19 ];
+        %tmp.55 = getv function %tmp.54 :setColor;
+        symbol [ Graphics %tmp.56 22 20 28 ];
+        %tmp.56 = getm $.Toybox.Graphics;
+        symbol [ COLOR_DK_BLUE %tmp.57 22 29 42 ];
+        %tmp.57 = getv %tmp.56 :COLOR_DK_BLUE;
+        symbol [ Graphics %tmp.58 22 44 52 ];
+        %tmp.58 = getm $.Toybox.Graphics;
+        symbol [ COLOR_WHITE %tmp.59 22 53 64 ];
+        %tmp.59 = getv %tmp.58 :COLOR_WHITE;
+        invoke %tmp.54 %tmp.55(%tmp.57, %tmp.59);
+[ "c:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\Breathing.mc" 23 8 ]
+        %tmp.60 = lgetv %dc;
+        symbol [ dc %tmp.60 23 8 10 ];
+        symbol [ fillRectangle %tmp.61 23 11 24 ];
+        %tmp.61 = getv function %tmp.60 :fillRectangle;
+        %tmp.62 = 0;
+        symbol [ FindYourPeaceView %tmp.64 23 28 45 ];
+        %tmp.64 = getv ? :FindYourPeaceView;
+        symbol [ height %tmp.65 23 46 52 ];
+        %tmp.65 = getv %tmp.64 :height;
+        %tmp.66 = 0.769;
+        %tmp.67 = mul %tmp.65 %tmp.66;
+        symbol [ FindYourPeaceView %tmp.69 23 62 79 ];
+        %tmp.69 = getv ? :FindYourPeaceView;
+        symbol [ width %tmp.70 23 80 85 ];
+        %tmp.70 = getv %tmp.69 :width;
+        symbol [ FindYourPeaceView %tmp.72 23 87 104 ];
+        %tmp.72 = getv ? :FindYourPeaceView;
+        symbol [ height %tmp.73 23 105 111 ];
+        %tmp.73 = getv %tmp.72 :height;
+        %tmp.74 = 0.769;
+        %tmp.75 = mul %tmp.73 %tmp.74;
+        invoke %tmp.60 %tmp.61(%tmp.62, %tmp.67, %tmp.70, %tmp.75);
+[ "c:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\Breathing.mc" 24 8 ]
+        %tmp.76 = lgetv %dc;
+        symbol [ dc %tmp.76 24 8 10 ];
+        symbol [ setColor %tmp.77 24 11 19 ];
+        %tmp.77 = getv function %tmp.76 :setColor;
+        symbol [ Graphics %tmp.78 24 20 28 ];
+        %tmp.78 = getm $.Toybox.Graphics;
+        symbol [ COLOR_WHITE %tmp.79 24 29 40 ];
+        %tmp.79 = getv %tmp.78 :COLOR_WHITE;
+        symbol [ Graphics %tmp.80 24 42 50 ];
+        %tmp.80 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.81 24 51 68 ];
+        %tmp.81 = getv %tmp.80 :COLOR_TRANSPARENT;
+        invoke %tmp.76 %tmp.77(%tmp.79, %tmp.81);
+[ "c:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\Breathing.mc" 26 8 ]
+        %tmp.82 = lgetv %dc;
+        symbol [ dc %tmp.82 26 8 10 ];
+        symbol [ drawText %tmp.83 26 11 19 ];
+        %tmp.83 = getv function %tmp.82 :drawText;
+        symbol [ FindYourPeaceView %tmp.85 26 20 37 ];
+        %tmp.85 = getv ? :FindYourPeaceView;
+        symbol [ width %tmp.86 26 38 43 ];
+        %tmp.86 = getv %tmp.85 :width;
+        %tmp.87 = 2;
+        %tmp.88 = div %tmp.86 %tmp.87;
+        symbol [ FindYourPeaceView %tmp.90 26 47 64 ];
+        %tmp.90 = getv ? :FindYourPeaceView;
+        symbol [ height %tmp.91 26 65 71 ];
+        %tmp.91 = getv %tmp.90 :height;
+        %tmp.92 = 0.808;
+        %tmp.93 = mul %tmp.91 %tmp.92;
+        symbol [ Graphics %tmp.94 26 81 89 ];
+        %tmp.94 = getm $.Toybox.Graphics;
+        symbol [ FONT_SMALL %tmp.95 26 90 100 ];
+        %tmp.95 = getv %tmp.94 :FONT_SMALL;
+        %tmp.96 = "START";
+        symbol [ Graphics %tmp.97 26 111 119 ];
+        %tmp.97 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.98 26 120 139 ];
+        %tmp.98 = getv %tmp.97 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.82 %tmp.83(%tmp.88, %tmp.93, %tmp.95, %tmp.96, %tmp.98);
+[ "c:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\Breathing.mc" 27 8 ]
+        %tmp.99 = lgetv %dc;
+        symbol [ dc %tmp.99 27 8 10 ];
+        symbol [ setColor %tmp.100 27 11 19 ];
+        %tmp.100 = getv function %tmp.99 :setColor;
+        symbol [ Graphics %tmp.101 27 20 28 ];
+        %tmp.101 = getm $.Toybox.Graphics;
+        symbol [ COLOR_WHITE %tmp.102 27 29 40 ];
+        %tmp.102 = getv %tmp.101 :COLOR_WHITE;
+        symbol [ Graphics %tmp.103 27 42 50 ];
+        %tmp.103 = getm $.Toybox.Graphics;
+        symbol [ COLOR_BLACK %tmp.104 27 51 62 ];
+        %tmp.104 = getv %tmp.103 :COLOR_BLACK;
+        invoke %tmp.99 %tmp.100(%tmp.102, %tmp.104);
+c__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_Breathing_mc_8_28_28_4_stop:
+    }
+}
+[ @file = "c:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\Breathing.mc"; @line = 1; ]
+<init> {
+}
