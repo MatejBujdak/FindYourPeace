@@ -1,0 +1,28 @@
+[ @file = "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\Others.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [WatchUi,1,14,21]; ]
+import Toybox.WatchUi;
+[ @file = "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\Others.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [Graphics,2,14,22]; ]
+import Toybox.Graphics;
+[ @file = "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\Others.mc"; @line = 3; @symbol_importdef<0> = [Toybox,3,7,13]; @symbol_importdef<1> = [Attention,3,14,23]; ]
+import Toybox.Attention;
+[ @file = "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\Others.mc"; @line = 4; @symbol_importdef<0> = [Toybox,4,7,13]; @symbol_importdef<1> = [System,4,14,20]; ]
+import Toybox.System;
+[ @file = "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\Others.mc"; @line = 5; @symbol_importdef<0> = [Toybox,5,7,13]; @symbol_importdef<1> = [Sensor,5,14,20]; ]
+import Toybox.Sensor;
+[ @file = "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\Others.mc"; @line = 6; @symbol_importdef<0> = [Toybox,6,7,13]; @symbol_importdef<1> = [Graphics,6,14,22]; ]
+import Toybox.Graphics;
+[ @file = "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\Others.mc"; @line = 8; @symbol_classdef = [Others,8,6,12]; ]
+class Others {
+    [ @file = "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\Others.mc"; @line = 8; ]
+    <init> {
+    }
+    [ @file = "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\Others.mc"; @line = 8; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\Others.mc"; @line = 9; @symbol_functiondef = [draw,9,13,17]; @symbol_param<0> = [dc,9,18,20]; @symbol_param<0>_type<0> = [Dc,9,24,26]; ]
+    function draw(dc as Dc) {
+    }
+}
+[ @file = "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\Others.mc"; @line = 1; ]
+<init> {
+}

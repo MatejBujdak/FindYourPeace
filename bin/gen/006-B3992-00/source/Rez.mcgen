@@ -32,9 +32,14 @@ module Rez {
     } // Menus
 
     module Strings {
+        (:initialized) var breath_in as ResourceId;
         (:initialized) var menu_label_1 as ResourceId;
+        (:initialized) var start as ResourceId;
         (:initialized) var menu_label_2 as ResourceId;
+        (:initialized) var time as ResourceId;
         (:initialized) var prompt as ResourceId;
+        (:initialized) var breath_out as ResourceId;
+        (:initialized) var resonant_breathing as ResourceId;
         (:initialized) var AppName as ResourceId;
     } // Strings
 

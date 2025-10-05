@@ -3,11 +3,15 @@ import Toybox.WatchUi;
 
 class FindYourPeaceView extends WatchUi.View {
 
-    var screen;
+    var screen;  //current screen to view
     static var width;
     static var height;
+    static var foregroundColor = Graphics.COLOR_WHITE;
+    static var backgroundColor =  Graphics.COLOR_BLACK;
     var _level;
-    var _breathing;
+    var _breathing; 
+    var _meditation; 
+    var _others;
 
     function initialize() {
         View.initialize();
@@ -20,6 +24,8 @@ class FindYourPeaceView extends WatchUi.View {
         height = dc.getHeight();
         _level = new LevelScreen();
         _breathing = new Breathing();
+        _meditation = new Meditation();
+        _others = new Others();
         
     }
 
@@ -31,15 +37,22 @@ class FindYourPeaceView extends WatchUi.View {
 
     // Update the view
     function onUpdate(dc as Dc) as Void {
+        dc.setColor(foregroundColor, backgroundColor);
         dc.clear();
-        dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_BLACK);
+        
         screen = Application.Storage.getValue("currentScreen");
 
         if (screen == 1) {
             _level.draw(dc);
         } else if(screen == 2) {
             _breathing.draw(dc);
+        }else if(screen == 3) {
+            _meditation.draw(dc);
+        }else if(screen == 4) {
+            _others.draw(dc);
         }
+        
+        
 
         WatchUi.requestUpdate();
     }

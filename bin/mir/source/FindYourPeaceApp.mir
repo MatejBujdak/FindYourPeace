@@ -45,7 +45,7 @@ C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_FindYourPeaceApp_
         symbol [ setValue %tmp.8 15 28 36 ];
         %tmp.8 = getv function %tmp.7 :setValue;
         %tmp.9 = "numberofscreens";
-        %tmp.10 = 2;
+        %tmp.10 = 3;
         invoke %tmp.7 %tmp.8(%tmp.9, %tmp.10);
 [ "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\FindYourPeaceApp.mc" 16 8 ]
         symbol [ Application %tmp.11 16 8 19 ];
@@ -64,7 +64,7 @@ C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_FindYourPeaceApp_
         %tmp.17 = getv %tmp.16 :Storage;
         symbol [ setValue %tmp.18 17 28 36 ];
         %tmp.18 = getv function %tmp.17 :setValue;
-        %tmp.19 = "Activity";
+        %tmp.19 = "ActivityBreathing";
         %tmp.20 = 0;
         invoke %tmp.17 %tmp.18(%tmp.19, %tmp.20);
 [ "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\FindYourPeaceApp.mc" 20 8 ]
@@ -110,7 +110,7 @@ C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_FindYourPeaceApp_
         symbol [ setValue %tmp.40 23 32 40 ];
         %tmp.40 = getv function %tmp.39 :setValue;
         %tmp.41 = "nextlevelneededpoints";
-        %tmp.42 = 4;
+        %tmp.42 = 50;
         invoke %tmp.39 %tmp.40(%tmp.41, %tmp.42);
 [ "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\FindYourPeaceApp.mc" 24 12 ]
         symbol [ Application %tmp.43 24 12 23 ];

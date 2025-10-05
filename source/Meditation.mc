@@ -1,29 +1,29 @@
 import Toybox.WatchUi;
 import Toybox.Graphics;
 
-class Breathing {
+class Meditation {
 
-    static var _startBreathing;
+    static var _startMeditation;
 
     function draw(dc as Dc) {
  
-        if(Application.Storage.getValue("ActivityBreathing") == 0){  //vyprazdni instanciu na aktivitu breathing (reset casovacu, premennych)
-            _startBreathing = null;
+        if(Application.Storage.getValue("ActivityMeditation") == 0){  //vyprazdni instanciu na aktivitu breathing (reset casovacu, premennych)
+            _startMeditation = null;
         }
 
         //zacatie aktivity breathing
-        if (_startBreathing == null && Application.Storage.getValue("ActivityBreathing") != 0) {
-            _startBreathing = new StartBreathing();
+        if (_startMeditation == null && Application.Storage.getValue("ActivityMeditation") != 0) {
+            _startMeditation = new StartBreathing();
         }
 
         //aktivita breathing zacata
-        if (_startBreathing != null && Application.Storage.getValue("ActivityBreathing") != 0) {
+        if (_startMeditation != null && Application.Storage.getValue("ActivityMeditation") != 0) {
             dc.clear();
-            _startBreathing.draw(dc);
+            _startMeditation.draw(dc);
             return;
         }
 
-        dc.drawText(FindYourPeaceView.width/2, FindYourPeaceView.height/2,Graphics.FONT_SMALL, "Resonant breathing", Graphics.TEXT_JUSTIFY_CENTER);
+        dc.drawText(FindYourPeaceView.width/2, FindYourPeaceView.height/2,Graphics.FONT_SMALL, "Meditation", Graphics.TEXT_JUSTIFY_CENTER);
 
         dc.setColor(Graphics.COLOR_DK_BLUE, Graphics.COLOR_WHITE);
         dc.fillRectangle(0, FindYourPeaceView.height * 0.769, FindYourPeaceView.width, FindYourPeaceView.height * 0.769);

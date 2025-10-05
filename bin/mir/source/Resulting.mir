@@ -1,0 +1,385 @@
+[ @file = "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\Resulting.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [WatchUi,1,14,21]; ]
+import Toybox.WatchUi;
+[ @file = "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\Resulting.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [Graphics,2,14,22]; ]
+import Toybox.Graphics;
+[ @file = "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\Resulting.mc"; @line = 3; @symbol_importdef<0> = [Toybox,3,7,13]; @symbol_importdef<1> = [Attention,3,14,23]; ]
+import Toybox.Attention;
+[ @file = "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\Resulting.mc"; @line = 4; @symbol_importdef<0> = [Toybox,4,7,13]; @symbol_importdef<1> = [System,4,14,20]; ]
+import Toybox.System;
+[ @file = "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\Resulting.mc"; @line = 5; @symbol_importdef<0> = [Toybox,5,7,13]; @symbol_importdef<1> = [Sensor,5,14,20]; ]
+import Toybox.Sensor;
+[ @file = "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\Resulting.mc"; @line = 6; @symbol_importdef<0> = [Toybox,6,7,13]; @symbol_importdef<1> = [Graphics,6,14,22]; ]
+import Toybox.Graphics;
+[ @file = "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\Resulting.mc"; @line = 8; @symbol_classdef = [Resulting,8,6,15]; ]
+class Resulting {
+    [ @file = "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\Resulting.mc"; @line = 8; ]
+    <init> {
+    }
+    [ @file = "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\Resulting.mc"; @line = 8; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\Resulting.mc"; @line = 10; @position = 8; @symbol_vardef = [eff,10,8,11]; ]
+    var eff = 0;
+    [ @file = "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\Resulting.mc"; @line = 11; @position = 8; @symbol_vardef = [points,11,8,14]; ]
+    var points = 0;
+    [ @file = "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\Resulting.mc"; @line = 12; @position = 8; @symbol_vardef = [eff_multipler,12,8,21]; ]
+    var eff_multipler = 0;
+    [ @file = "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\Resulting.mc"; @line = 14; @symbol_functiondef = [resulting,14,13,22]; @symbol_param<0> = [seconds,14,23,30]; @symbol_param<1> = [avg_stres,14,32,41]; @symbol_param<2> = [max_stress,14,43,53]; @symbol_param<3> = [stress_median,14,55,68]; ]
+    function resulting(seconds, avg_stres, max_stress, stress_median) {
+C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_Resulting_mc_14_69_31_4_start:
+[ "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\Resulting.mc" 15 8 ]
+C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_Resulting_mc_15_8_20_8_if_stmt:
+        %tmp.1 = lgetv %seconds;
+        symbol [ seconds %tmp.1 15 11 18 ];
+        %tmp.2 = 0;
+        %tmp.3 = ne %tmp.1 %tmp.2;
+        bf %tmp.3 @C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_Resulting_mc_15_8_20_8_if_end;
+C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_Resulting_mc_15_8_20_8_if_true:
+C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_Resulting_mc_15_24_20_8_start:
+[ "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\Resulting.mc" 16 12 ]
+        %tmp.4 = lgetv %max_stress;
+        symbol [ max_stress %tmp.4 16 19 29 ];
+        %tmp.5 = lgetv %stress_median;
+        symbol [ stress_median %tmp.5 16 32 45 ];
+        %tmp.6 = sub %tmp.4 %tmp.5;
+        symbol [ toNumber %tmp.7 16 47 55 ];
+        %tmp.7 = getv function %tmp.6 :toNumber;
+        %tmp.8 = invoke %tmp.6 %tmp.7();
+        symbol [ eff ? 16 12 15 ];
+        putv self :eff %tmp.8;
+[ "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\Resulting.mc" 17 12 ]
+        %tmp.9 = lgetv %avg_stres;
+        symbol [ avg_stres %tmp.9 17 29 38 ];
+        %tmp.10 = lgetv %seconds;
+        symbol [ seconds %tmp.10 17 39 46 ];
+        %tmp.11 = div %tmp.9 %tmp.10;
+        %tmp.12 = 1.0;
+        %tmp.13 = mul %tmp.11 %tmp.12;
+        %tmp.14 = lgetv %stress_median;
+        symbol [ stress_median %tmp.14 17 56 69 ];
+        %tmp.15 = div %tmp.13 %tmp.14;
+        symbol [ eff_multipler ? 17 12 25 ];
+        putv self :eff_multipler %tmp.15;
+[ "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\Resulting.mc" 18 12 ]
+        symbol [ Math %tmp.17 18 21 25 ];
+        %tmp.17 = getv ? :Math;
+        symbol [ round %tmp.18 18 26 31 ];
+        %tmp.18 = getv function %tmp.17 :round;
+        symbol [ eff_multipler %tmp.20 18 32 45 ];
+        %tmp.20 = getv ? :eff_multipler;
+        %tmp.21 = lgetv %seconds;
+        symbol [ seconds %tmp.21 18 49 56 ];
+        %tmp.22 = 10;
+        %tmp.23 = div %tmp.21 %tmp.22;
+        %tmp.24 = mul %tmp.20 %tmp.23;
+        %tmp.25 = invoke %tmp.17 %tmp.18(%tmp.24);
+        symbol [ toNumber %tmp.26 18 62 70 ];
+        %tmp.26 = getv function %tmp.25 :toNumber;
+        %tmp.27 = invoke %tmp.25 %tmp.26();
+        symbol [ points ? 18 12 18 ];
+        putv self :points %tmp.27;
+[ "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\Resulting.mc" 19 12 ]
+C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_Resulting_mc_19_12_19_33_if_stmt:
+        symbol [ eff %tmp.29 19 15 18 ];
+        %tmp.29 = getv ? :eff;
+        %tmp.30 = 0;
+        %tmp.31 = lt %tmp.29 %tmp.30;
+        bf %tmp.31 @C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_Resulting_mc_19_12_19_33_if_end;
+C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_Resulting_mc_19_12_19_33_if_true:
+C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_Resulting_mc_19_24_19_33_start:
+[ "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\Resulting.mc" 19 25 ]
+        %tmp.32 = 0;
+        symbol [ eff ? 19 25 28 ];
+        putv self :eff %tmp.32;
+C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_Resulting_mc_19_24_19_33_stop:
+        goto @C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_Resulting_mc_19_12_19_33_if_end;
+C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_Resulting_mc_19_12_19_33_if_end:
+C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_Resulting_mc_15_24_20_8_stop:
+        goto @C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_Resulting_mc_15_8_20_8_if_end;
+C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_Resulting_mc_15_8_20_8_if_end:
+[ "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\Resulting.mc" 22 8 ]
+        symbol [ Application %tmp.34 22 8 19 ];
+        %tmp.34 = getv ? :Application;
+        symbol [ Storage %tmp.35 22 20 27 ];
+        %tmp.35 = getv %tmp.34 :Storage;
+        symbol [ setValue %tmp.36 22 28 36 ];
+        %tmp.36 = getv function %tmp.35 :setValue;
+        %tmp.37 = "levelProgress";
+        symbol [ Application %tmp.39 22 54 65 ];
+        %tmp.39 = getv ? :Application;
+        symbol [ Storage %tmp.40 22 66 73 ];
+        %tmp.40 = getv %tmp.39 :Storage;
+        symbol [ getValue %tmp.41 22 74 82 ];
+        %tmp.41 = getv function %tmp.40 :getValue;
+        %tmp.42 = "levelProgress";
+        %tmp.43 = invoke %tmp.40 %tmp.41(%tmp.42);
+        symbol [ points %tmp.45 22 102 108 ];
+        %tmp.45 = getv ? :points;
+        %tmp.46 = add %tmp.43 %tmp.45;
+        invoke %tmp.35 %tmp.36(%tmp.37, %tmp.46);
+[ "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\Resulting.mc" 24 8 ]
+C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_Resulting_mc_24_8_29_8_if_stmt:
+        symbol [ Application %tmp.48 24 11 22 ];
+        %tmp.48 = getv ? :Application;
+        symbol [ Storage %tmp.49 24 23 30 ];
+        %tmp.49 = getv %tmp.48 :Storage;
+        symbol [ getValue %tmp.50 24 31 39 ];
+        %tmp.50 = getv function %tmp.49 :getValue;
+        %tmp.51 = "levelProgress";
+        %tmp.52 = invoke %tmp.49 %tmp.50(%tmp.51);
+        symbol [ Application %tmp.54 24 60 71 ];
+        %tmp.54 = getv ? :Application;
+        symbol [ Storage %tmp.55 24 72 79 ];
+        %tmp.55 = getv %tmp.54 :Storage;
+        symbol [ getValue %tmp.56 24 80 88 ];
+        %tmp.56 = getv function %tmp.55 :getValue;
+        %tmp.57 = "nextlevelneededpoints";
+        %tmp.58 = invoke %tmp.55 %tmp.56(%tmp.57);
+        %tmp.59 = gte %tmp.52 %tmp.58;
+        bf %tmp.59 @C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_Resulting_mc_24_8_29_8_if_end;
+C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_Resulting_mc_24_8_29_8_if_true:
+C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_Resulting_mc_24_114_29_8_start:
+[ "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\Resulting.mc" 25 12 ]
+        [ "C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_Resulting_mc_24_114_29_8_start" "C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_Resulting_mc_24_114_29_8_stop" ]
+        %playerlvl.1 = local;
+        symbol [ playerlvl %playerlvl.1 25 16 25 ];
+        symbol [ Application %tmp.61 25 28 39 ];
+        %tmp.61 = getv ? :Application;
+        symbol [ Storage %tmp.62 25 40 47 ];
+        %tmp.62 = getv %tmp.61 :Storage;
+        symbol [ getValue %tmp.63 25 48 56 ];
+        %tmp.63 = getv function %tmp.62 :getValue;
+        %tmp.64 = "level";
+        %tmp.65 = invoke %tmp.62 %tmp.63(%tmp.64);
+        %tmp.66 = 1;
+        %tmp.67 = add %tmp.65 %tmp.66;
+        lputv %playerlvl.1 %tmp.67;
+        symbol [ playerlvl %playerlvl.1 25 16 25 ];
+[ "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\Resulting.mc" 26 12 ]
+        symbol [ Application %tmp.69 26 12 23 ];
+        %tmp.69 = getv ? :Application;
+        symbol [ Storage %tmp.70 26 24 31 ];
+        %tmp.70 = getv %tmp.69 :Storage;
+        symbol [ setValue %tmp.71 26 32 40 ];
+        %tmp.71 = getv function %tmp.70 :setValue;
+        %tmp.72 = "level";
+        %tmp.73 = lgetv %playerlvl.1;
+        symbol [ playerlvl %tmp.73 26 50 59 ];
+        invoke %tmp.70 %tmp.71(%tmp.72, %tmp.73);
+[ "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\Resulting.mc" 27 12 ]
+        symbol [ Application %tmp.75 27 12 23 ];
+        %tmp.75 = getv ? :Application;
+        symbol [ Storage %tmp.76 27 24 31 ];
+        %tmp.76 = getv %tmp.75 :Storage;
+        symbol [ setValue %tmp.77 27 32 40 ];
+        %tmp.77 = getv function %tmp.76 :setValue;
+        %tmp.78 = "levelProgress";
+        symbol [ Application %tmp.80 27 58 69 ];
+        %tmp.80 = getv ? :Application;
+        symbol [ Storage %tmp.81 27 70 77 ];
+        %tmp.81 = getv %tmp.80 :Storage;
+        symbol [ getValue %tmp.82 27 78 86 ];
+        %tmp.82 = getv function %tmp.81 :getValue;
+        %tmp.83 = "levelProgress";
+        %tmp.84 = invoke %tmp.81 %tmp.82(%tmp.83);
+        symbol [ Application %tmp.86 27 106 117 ];
+        %tmp.86 = getv ? :Application;
+        symbol [ Storage %tmp.87 27 118 125 ];
+        %tmp.87 = getv %tmp.86 :Storage;
+        symbol [ getValue %tmp.88 27 126 134 ];
+        %tmp.88 = getv function %tmp.87 :getValue;
+        %tmp.89 = "nextlevelneededpoints";
+        %tmp.90 = invoke %tmp.87 %tmp.88(%tmp.89);
+        %tmp.91 = sub %tmp.84 %tmp.90;
+        invoke %tmp.76 %tmp.77(%tmp.78, %tmp.91);
+[ "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\Resulting.mc" 28 12 ]
+        symbol [ Application %tmp.93 28 12 23 ];
+        %tmp.93 = getv ? :Application;
+        symbol [ Storage %tmp.94 28 24 31 ];
+        %tmp.94 = getv %tmp.93 :Storage;
+        symbol [ setValue %tmp.95 28 32 40 ];
+        %tmp.95 = getv function %tmp.94 :setValue;
+        %tmp.96 = "nextlevelneededpoints";
+        %tmp.97 = 50;
+        %tmp.98 = 50;
+        %tmp.99 = lgetv %playerlvl.1;
+        symbol [ playerlvl %tmp.99 28 74 83 ];
+        %tmp.100 = lgetv %playerlvl.1;
+        symbol [ playerlvl %tmp.100 28 86 95 ];
+        %tmp.101 = mul %tmp.99 %tmp.100;
+        %tmp.102 = mul %tmp.98 %tmp.101;
+        %tmp.103 = add %tmp.97 %tmp.102;
+        invoke %tmp.94 %tmp.95(%tmp.96, %tmp.103);
+C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_Resulting_mc_24_114_29_8_stop:
+        goto @C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_Resulting_mc_24_8_29_8_if_end;
+C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_Resulting_mc_24_8_29_8_if_end:
+C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_Resulting_mc_14_69_31_4_stop:
+    }
+    [ @file = "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\Resulting.mc"; @line = 33; @symbol_functiondef = [draw,33,13,17]; @symbol_param<0> = [dc,33,18,20]; ]
+    function draw(dc) {
+C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_Resulting_mc_33_21_44_4_start:
+[ "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\Resulting.mc" 34 8 ]
+        %tmp.1 = lgetv %dc;
+        symbol [ dc %tmp.1 34 8 10 ];
+        symbol [ clear %tmp.2 34 11 16 ];
+        %tmp.2 = getv function %tmp.1 :clear;
+        invoke %tmp.1 %tmp.2();
+[ "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\Resulting.mc" 35 8 ]
+        %tmp.3 = lgetv %dc;
+        symbol [ dc %tmp.3 35 8 10 ];
+        symbol [ drawText %tmp.4 35 11 19 ];
+        %tmp.4 = getv function %tmp.3 :drawText;
+        symbol [ FindYourPeaceView %tmp.6 35 20 37 ];
+        %tmp.6 = getv ? :FindYourPeaceView;
+        symbol [ width %tmp.7 35 38 43 ];
+        %tmp.7 = getv %tmp.6 :width;
+        %tmp.8 = 2;
+        %tmp.9 = div %tmp.7 %tmp.8;
+        symbol [ FindYourPeaceView %tmp.11 35 48 65 ];
+        %tmp.11 = getv ? :FindYourPeaceView;
+        symbol [ height %tmp.12 35 66 72 ];
+        %tmp.12 = getv %tmp.11 :height;
+        %tmp.13 = 0.4;
+        %tmp.14 = mul %tmp.12 %tmp.13;
+        symbol [ Graphics %tmp.15 35 79 87 ];
+        %tmp.15 = getm $.Toybox.Graphics;
+        symbol [ FONT_TINY %tmp.16 35 88 97 ];
+        %tmp.16 = getv %tmp.15 :FONT_TINY;
+        %tmp.17 = "Efficiency: ";
+        symbol [ eff %tmp.19 35 117 120 ];
+        %tmp.19 = getv ? :eff;
+        %tmp.20 = add %tmp.17 %tmp.19;
+        symbol [ Graphics %tmp.21 35 122 130 ];
+        %tmp.21 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.22 35 131 150 ];
+        %tmp.22 = getv %tmp.21 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.3 %tmp.4(%tmp.9, %tmp.14, %tmp.16, %tmp.20, %tmp.22);
+[ "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\Resulting.mc" 36 8 ]
+        %tmp.23 = lgetv %dc;
+        symbol [ dc %tmp.23 36 8 10 ];
+        symbol [ drawText %tmp.24 36 11 19 ];
+        %tmp.24 = getv function %tmp.23 :drawText;
+        symbol [ FindYourPeaceView %tmp.26 36 20 37 ];
+        %tmp.26 = getv ? :FindYourPeaceView;
+        symbol [ width %tmp.27 36 38 43 ];
+        %tmp.27 = getv %tmp.26 :width;
+        %tmp.28 = 2;
+        %tmp.29 = div %tmp.27 %tmp.28;
+        symbol [ FindYourPeaceView %tmp.31 36 48 65 ];
+        %tmp.31 = getv ? :FindYourPeaceView;
+        symbol [ height %tmp.32 36 66 72 ];
+        %tmp.32 = getv %tmp.31 :height;
+        %tmp.33 = 0.5;
+        %tmp.34 = mul %tmp.32 %tmp.33;
+        symbol [ Graphics %tmp.35 36 79 87 ];
+        %tmp.35 = getm $.Toybox.Graphics;
+        symbol [ FONT_TINY %tmp.36 36 88 97 ];
+        %tmp.36 = getv %tmp.35 :FONT_TINY;
+        %tmp.37 = "Points: ";
+        symbol [ points %tmp.39 36 112 118 ];
+        %tmp.39 = getv ? :points;
+        %tmp.40 = add %tmp.37 %tmp.39;
+        symbol [ Graphics %tmp.41 36 120 128 ];
+        %tmp.41 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.42 36 129 148 ];
+        %tmp.42 = getv %tmp.41 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.23 %tmp.24(%tmp.29, %tmp.34, %tmp.36, %tmp.40, %tmp.42);
+[ "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\Resulting.mc" 38 8 ]
+        %tmp.43 = lgetv %dc;
+        symbol [ dc %tmp.43 38 8 10 ];
+        symbol [ setColor %tmp.44 38 11 19 ];
+        %tmp.44 = getv function %tmp.43 :setColor;
+        symbol [ Graphics %tmp.45 38 20 28 ];
+        %tmp.45 = getm $.Toybox.Graphics;
+        symbol [ COLOR_DK_BLUE %tmp.46 38 29 42 ];
+        %tmp.46 = getv %tmp.45 :COLOR_DK_BLUE;
+        symbol [ Graphics %tmp.47 38 44 52 ];
+        %tmp.47 = getm $.Toybox.Graphics;
+        symbol [ COLOR_WHITE %tmp.48 38 53 64 ];
+        %tmp.48 = getv %tmp.47 :COLOR_WHITE;
+        invoke %tmp.43 %tmp.44(%tmp.46, %tmp.48);
+[ "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\Resulting.mc" 39 8 ]
+        %tmp.49 = lgetv %dc;
+        symbol [ dc %tmp.49 39 8 10 ];
+        symbol [ fillRectangle %tmp.50 39 11 24 ];
+        %tmp.50 = getv function %tmp.49 :fillRectangle;
+        %tmp.51 = 0;
+        symbol [ FindYourPeaceView %tmp.53 39 28 45 ];
+        %tmp.53 = getv ? :FindYourPeaceView;
+        symbol [ height %tmp.54 39 46 52 ];
+        %tmp.54 = getv %tmp.53 :height;
+        %tmp.55 = 0.769;
+        %tmp.56 = mul %tmp.54 %tmp.55;
+        symbol [ FindYourPeaceView %tmp.58 39 62 79 ];
+        %tmp.58 = getv ? :FindYourPeaceView;
+        symbol [ width %tmp.59 39 80 85 ];
+        %tmp.59 = getv %tmp.58 :width;
+        symbol [ FindYourPeaceView %tmp.61 39 87 104 ];
+        %tmp.61 = getv ? :FindYourPeaceView;
+        symbol [ height %tmp.62 39 105 111 ];
+        %tmp.62 = getv %tmp.61 :height;
+        %tmp.63 = 0.769;
+        %tmp.64 = mul %tmp.62 %tmp.63;
+        invoke %tmp.49 %tmp.50(%tmp.51, %tmp.56, %tmp.59, %tmp.64);
+[ "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\Resulting.mc" 40 8 ]
+        %tmp.65 = lgetv %dc;
+        symbol [ dc %tmp.65 40 8 10 ];
+        symbol [ setColor %tmp.66 40 11 19 ];
+        %tmp.66 = getv function %tmp.65 :setColor;
+        symbol [ Graphics %tmp.67 40 20 28 ];
+        %tmp.67 = getm $.Toybox.Graphics;
+        symbol [ COLOR_WHITE %tmp.68 40 29 40 ];
+        %tmp.68 = getv %tmp.67 :COLOR_WHITE;
+        symbol [ Graphics %tmp.69 40 42 50 ];
+        %tmp.69 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.70 40 51 68 ];
+        %tmp.70 = getv %tmp.69 :COLOR_TRANSPARENT;
+        invoke %tmp.65 %tmp.66(%tmp.68, %tmp.70);
+[ "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\Resulting.mc" 42 8 ]
+        %tmp.71 = lgetv %dc;
+        symbol [ dc %tmp.71 42 8 10 ];
+        symbol [ drawText %tmp.72 42 11 19 ];
+        %tmp.72 = getv function %tmp.71 :drawText;
+        symbol [ FindYourPeaceView %tmp.74 42 20 37 ];
+        %tmp.74 = getv ? :FindYourPeaceView;
+        symbol [ width %tmp.75 42 38 43 ];
+        %tmp.75 = getv %tmp.74 :width;
+        %tmp.76 = 2;
+        %tmp.77 = div %tmp.75 %tmp.76;
+        symbol [ FindYourPeaceView %tmp.79 42 47 64 ];
+        %tmp.79 = getv ? :FindYourPeaceView;
+        symbol [ height %tmp.80 42 65 71 ];
+        %tmp.80 = getv %tmp.79 :height;
+        %tmp.81 = 0.808;
+        %tmp.82 = mul %tmp.80 %tmp.81;
+        symbol [ Graphics %tmp.83 42 81 89 ];
+        %tmp.83 = getm $.Toybox.Graphics;
+        symbol [ FONT_SMALL %tmp.84 42 90 100 ];
+        %tmp.84 = getv %tmp.83 :FONT_SMALL;
+        %tmp.85 = "Exit";
+        symbol [ Graphics %tmp.86 42 110 118 ];
+        %tmp.86 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.87 42 119 138 ];
+        %tmp.87 = getv %tmp.86 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.71 %tmp.72(%tmp.77, %tmp.82, %tmp.84, %tmp.85, %tmp.87);
+[ "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\Resulting.mc" 43 8 ]
+        %tmp.88 = lgetv %dc;
+        symbol [ dc %tmp.88 43 8 10 ];
+        symbol [ setColor %tmp.89 43 11 19 ];
+        %tmp.89 = getv function %tmp.88 :setColor;
+        symbol [ Graphics %tmp.90 43 20 28 ];
+        %tmp.90 = getm $.Toybox.Graphics;
+        symbol [ COLOR_WHITE %tmp.91 43 29 40 ];
+        %tmp.91 = getv %tmp.90 :COLOR_WHITE;
+        symbol [ Graphics %tmp.92 43 42 50 ];
+        %tmp.92 = getm $.Toybox.Graphics;
+        symbol [ COLOR_BLACK %tmp.93 43 51 62 ];
+        %tmp.93 = getv %tmp.92 :COLOR_BLACK;
+        invoke %tmp.88 %tmp.89(%tmp.91, %tmp.93);
+C__Users_Matej_OneDrive_Počítač_garmin_FindYourPeace_source_Resulting_mc_33_21_44_4_stop:
+    }
+}
+[ @file = "C:\Users\Matej\OneDrive\Počítač\garmin\FindYourPeace\source\Resulting.mc"; @line = 1; ]
+<init> {
+}

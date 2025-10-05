@@ -9,304 +9,467 @@
         <entry filename="c:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\bin\\gen\\006-B3992-00\\source\\Rez.mcgen" id="4" lineNum="7" parent="globals/Rez" pc="268435505" symbol="&lt;init&gt;"/>
         <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceMenuDelegate.mc" id="5" lineNum="5" parent="globals/FindYourPeaceMenuDelegate" pc="268435525" symbol="&lt;init&gt;"/>
         <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceView.mc" id="6" lineNum="4" parent="globals/FindYourPeaceView" pc="268435537" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceApp.mc" id="7" lineNum="12" parent="globals/FindYourPeaceApp" pc="268435549" symbol="onStart"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceApp.mc" id="7" lineNum="14" parent="globals/FindYourPeaceApp" pc="268435551" symbol="onStart"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceApp.mc" id="7" lineNum="15" parent="globals/FindYourPeaceApp" pc="268435571" symbol="onStart"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceApp.mc" id="7" lineNum="16" parent="globals/FindYourPeaceApp" pc="268435591" symbol="onStart"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceApp.mc" id="7" lineNum="17" parent="globals/FindYourPeaceApp" pc="268435610" symbol="onStart"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceApp.mc" id="7" lineNum="20" parent="globals/FindYourPeaceApp" pc="268435629" symbol="onStart"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceApp.mc" id="7" lineNum="21" parent="globals/FindYourPeaceApp" pc="268435650" symbol="onStart"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceApp.mc" id="7" lineNum="22" parent="globals/FindYourPeaceApp" pc="268435670" symbol="onStart"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceApp.mc" id="7" lineNum="23" parent="globals/FindYourPeaceApp" pc="268435689" symbol="onStart"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceApp.mc" id="7" lineNum="24" parent="globals/FindYourPeaceApp" pc="268435709" symbol="onStart"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceApp.mc" id="8" lineNum="34" parent="globals/FindYourPeaceApp" pc="268435732" symbol="getInitialView"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceApp.mc" id="8" lineNum="35" parent="globals/FindYourPeaceApp" pc="268435734" symbol="getInitialView"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceApp.mc" id="9" lineNum="7" parent="globals/FindYourPeaceApp" pc="268435781" symbol="initialize"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceApp.mc" id="9" lineNum="8" parent="globals/FindYourPeaceApp" pc="268435783" symbol="initialize"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceApp.mc" id="10" lineNum="30" parent="globals/FindYourPeaceApp" pc="268435796" symbol="onStop"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceDelegate.mc" id="11" lineNum="10" parent="globals/FindYourPeaceDelegate" pc="268435799" symbol="onMenu"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceDelegate.mc" id="11" lineNum="11" parent="globals/FindYourPeaceDelegate" pc="268435801" symbol="onMenu"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceDelegate.mc" id="11" lineNum="12" parent="globals/FindYourPeaceDelegate" pc="268435866" symbol="onMenu"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceDelegate.mc" id="12" lineNum="50" parent="globals/FindYourPeaceDelegate" pc="268435868" symbol="checkScreen"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceDelegate.mc" id="12" lineNum="51" parent="globals/FindYourPeaceDelegate" pc="268435870" symbol="checkScreen"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceDelegate.mc" id="12" lineNum="52" parent="globals/FindYourPeaceDelegate" pc="268435878" symbol="checkScreen"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceDelegate.mc" id="12" lineNum="53" parent="globals/FindYourPeaceDelegate" pc="268435900" symbol="checkScreen"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceDelegate.mc" id="12" lineNum="54" parent="globals/FindYourPeaceDelegate" pc="268435923" symbol="checkScreen"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceDelegate.mc" id="12" lineNum="56" parent="globals/FindYourPeaceDelegate" pc="268435930" symbol="checkScreen"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceDelegate.mc" id="13" lineNum="35" parent="globals/FindYourPeaceDelegate" pc="268435951" symbol="onSwipe"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceDelegate.mc" id="13" lineNum="37" parent="globals/FindYourPeaceDelegate" pc="268435954" symbol="onSwipe"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceDelegate.mc" id="13" lineNum="38" parent="globals/FindYourPeaceDelegate" pc="268435963" symbol="onSwipe"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceDelegate.mc" id="13" lineNum="39" parent="globals/FindYourPeaceDelegate" pc="268435971" symbol="onSwipe"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceDelegate.mc" id="13" lineNum="40" parent="globals/FindYourPeaceDelegate" pc="268436000" symbol="onSwipe"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceDelegate.mc" id="13" lineNum="42" parent="globals/FindYourPeaceDelegate" pc="268436005" symbol="onSwipe"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceDelegate.mc" id="13" lineNum="43" parent="globals/FindYourPeaceDelegate" pc="268436012" symbol="onSwipe"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceDelegate.mc" id="13" lineNum="44" parent="globals/FindYourPeaceDelegate" pc="268436041" symbol="onSwipe"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceDelegate.mc" id="13" lineNum="46" parent="globals/FindYourPeaceDelegate" pc="268436046" symbol="onSwipe"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceDelegate.mc" id="14" lineNum="6" parent="globals/FindYourPeaceDelegate" pc="268436048" symbol="initialize"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceDelegate.mc" id="14" lineNum="7" parent="globals/FindYourPeaceDelegate" pc="268436050" symbol="initialize"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceDelegate.mc" id="15" lineNum="15" parent="globals/FindYourPeaceDelegate" pc="268436063" symbol="onKey"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceDelegate.mc" id="15" lineNum="16" parent="globals/FindYourPeaceDelegate" pc="268436066" symbol="onKey"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceDelegate.mc" id="15" lineNum="17" parent="globals/FindYourPeaceDelegate" pc="268436075" symbol="onKey"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceDelegate.mc" id="15" lineNum="18" parent="globals/FindYourPeaceDelegate" pc="268436098" symbol="onKey"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceDelegate.mc" id="15" lineNum="19" parent="globals/FindYourPeaceDelegate" pc="268436106" symbol="onKey"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceDelegate.mc" id="15" lineNum="20" parent="globals/FindYourPeaceDelegate" pc="268436124" symbol="onKey"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceDelegate.mc" id="15" lineNum="24" parent="globals/FindYourPeaceDelegate" pc="268436150" symbol="onKey"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceDelegate.mc" id="15" lineNum="25" parent="globals/FindYourPeaceDelegate" pc="268436158" symbol="onKey"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceDelegate.mc" id="15" lineNum="26" parent="globals/FindYourPeaceDelegate" pc="268436187" symbol="onKey"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceDelegate.mc" id="15" lineNum="28" parent="globals/FindYourPeaceDelegate" pc="268436192" symbol="onKey"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceDelegate.mc" id="15" lineNum="29" parent="globals/FindYourPeaceDelegate" pc="268436200" symbol="onKey"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceDelegate.mc" id="15" lineNum="30" parent="globals/FindYourPeaceDelegate" pc="268436229" symbol="onKey"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceDelegate.mc" id="15" lineNum="32" parent="globals/FindYourPeaceDelegate" pc="268436234" symbol="onKey"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceMenuDelegate.mc" id="16" lineNum="11" parent="globals/FindYourPeaceMenuDelegate" pc="268436236" symbol="onMenuItem"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceMenuDelegate.mc" id="16" lineNum="12" parent="globals/FindYourPeaceMenuDelegate" pc="268436238" symbol="onMenuItem"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceMenuDelegate.mc" id="16" lineNum="13" parent="globals/FindYourPeaceMenuDelegate" pc="268436249" symbol="onMenuItem"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceMenuDelegate.mc" id="16" lineNum="14" parent="globals/FindYourPeaceMenuDelegate" pc="268436270" symbol="onMenuItem"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceMenuDelegate.mc" id="16" lineNum="15" parent="globals/FindYourPeaceMenuDelegate" pc="268436281" symbol="onMenuItem"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceMenuDelegate.mc" id="17" lineNum="7" parent="globals/FindYourPeaceMenuDelegate" pc="268436303" symbol="initialize"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceMenuDelegate.mc" id="17" lineNum="8" parent="globals/FindYourPeaceMenuDelegate" pc="268436305" symbol="initialize"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\Breathing.mc" id="18" lineNum="8" parent="globals/Breathing" pc="268436318" symbol="draw"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\Breathing.mc" id="18" lineNum="10" parent="globals/Breathing" pc="268436320" symbol="draw"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\Breathing.mc" id="18" lineNum="11" parent="globals/Breathing" pc="268436352" symbol="draw"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\Breathing.mc" id="18" lineNum="14" parent="globals/Breathing" pc="268436380" symbol="draw"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\Breathing.mc" id="18" lineNum="15" parent="globals/Breathing" pc="268436412" symbol="draw"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\Breathing.mc" id="18" lineNum="16" parent="globals/Breathing" pc="268436420" symbol="draw"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\Breathing.mc" id="18" lineNum="17" parent="globals/Breathing" pc="268436436" symbol="draw"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\Breathing.mc" id="18" lineNum="20" parent="globals/Breathing" pc="268436440" symbol="draw"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\Breathing.mc" id="18" lineNum="21" parent="globals/Breathing" pc="268436458" symbol="draw"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\Breathing.mc" id="18" lineNum="22" parent="globals/Breathing" pc="268436511" symbol="draw"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\Breathing.mc" id="18" lineNum="24" parent="globals/Breathing" pc="268436528" symbol="draw"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\Breathing.mc" id="18" lineNum="25" parent="globals/Breathing" pc="268436576" symbol="draw"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceView.mc" id="21" lineNum="17" parent="globals/FindYourPeaceView" pc="268436593" symbol="onLayout"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceView.mc" id="21" lineNum="19" parent="globals/FindYourPeaceView" pc="268436595" symbol="onLayout"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceView.mc" id="21" lineNum="20" parent="globals/FindYourPeaceView" pc="268436609" symbol="onLayout"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceView.mc" id="21" lineNum="21" parent="globals/FindYourPeaceView" pc="268436623" symbol="onLayout"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceView.mc" id="21" lineNum="22" parent="globals/FindYourPeaceView" pc="268436648" symbol="onLayout"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceView.mc" id="22" lineNum="12" parent="globals/FindYourPeaceView" pc="268436674" symbol="initialize"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceView.mc" id="22" lineNum="13" parent="globals/FindYourPeaceView" pc="268436676" symbol="initialize"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceView.mc" id="24" lineNum="33" parent="globals/FindYourPeaceView" pc="268436689" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceView.mc" id="24" lineNum="34" parent="globals/FindYourPeaceView" pc="268436691" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceView.mc" id="24" lineNum="35" parent="globals/FindYourPeaceView" pc="268436699" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceView.mc" id="24" lineNum="36" parent="globals/FindYourPeaceView" pc="268436715" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceView.mc" id="24" lineNum="38" parent="globals/FindYourPeaceView" pc="268436739" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceView.mc" id="24" lineNum="39" parent="globals/FindYourPeaceView" pc="268436750" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceView.mc" id="24" lineNum="40" parent="globals/FindYourPeaceView" pc="268436769" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceView.mc" id="24" lineNum="41" parent="globals/FindYourPeaceView" pc="268436780" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceView.mc" id="24" lineNum="44" parent="globals/FindYourPeaceView" pc="268436799" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\LevelScreen.mc" id="25" lineNum="51" parent="globals/LevelScreen" pc="268436811" symbol="drawLevelBar"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\LevelScreen.mc" id="25" lineNum="52" parent="globals/LevelScreen" pc="268436814" symbol="drawLevelBar"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\LevelScreen.mc" id="25" lineNum="53" parent="globals/LevelScreen" pc="268436827" symbol="drawLevelBar"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\LevelScreen.mc" id="25" lineNum="53" parent="globals/LevelScreen" pc="268436835" symbol="drawLevelBar"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\LevelScreen.mc" id="25" lineNum="56" parent="globals/LevelScreen" pc="268436842" symbol="drawLevelBar"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\LevelScreen.mc" id="25" lineNum="57" parent="globals/LevelScreen" pc="268436859" symbol="drawLevelBar"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\LevelScreen.mc" id="25" lineNum="59" parent="globals/LevelScreen" pc="268436877" symbol="drawLevelBar"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\LevelScreen.mc" id="25" lineNum="61" parent="globals/LevelScreen" pc="268436884" symbol="drawLevelBar"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\LevelScreen.mc" id="25" lineNum="62" parent="globals/LevelScreen" pc="268436900" symbol="drawLevelBar"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\LevelScreen.mc" id="25" lineNum="65" parent="globals/LevelScreen" pc="268436930" symbol="drawLevelBar"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\LevelScreen.mc" id="26" lineNum="6" parent="globals/LevelScreen" pc="268436947" symbol="draw"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\LevelScreen.mc" id="26" lineNum="7" parent="globals/LevelScreen" pc="268436950" symbol="draw"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\LevelScreen.mc" id="26" lineNum="8" parent="globals/LevelScreen" pc="268436969" symbol="draw"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\LevelScreen.mc" id="26" lineNum="9" parent="globals/LevelScreen" pc="268436988" symbol="draw"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\LevelScreen.mc" id="26" lineNum="10" parent="globals/LevelScreen" pc="268437007" symbol="draw"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\LevelScreen.mc" id="26" lineNum="12" parent="globals/LevelScreen" pc="268437026" symbol="draw"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\LevelScreen.mc" id="26" lineNum="13" parent="globals/LevelScreen" pc="268437035" symbol="draw"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\LevelScreen.mc" id="26" lineNum="14" parent="globals/LevelScreen" pc="268437044" symbol="draw"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\LevelScreen.mc" id="26" lineNum="16" parent="globals/LevelScreen" pc="268437049" symbol="draw"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\LevelScreen.mc" id="26" lineNum="17" parent="globals/LevelScreen" pc="268437059" symbol="draw"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\LevelScreen.mc" id="26" lineNum="37" parent="globals/LevelScreen" pc="268437069" symbol="draw"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\LevelScreen.mc" id="26" lineNum="38" parent="globals/LevelScreen" pc="268437080" symbol="draw"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\LevelScreen.mc" id="26" lineNum="39" parent="globals/LevelScreen" pc="268437115" symbol="draw"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\LevelScreen.mc" id="26" lineNum="41" parent="globals/LevelScreen" pc="268437153" symbol="draw"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\LevelScreen.mc" id="26" lineNum="42" parent="globals/LevelScreen" pc="268437185" symbol="draw"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\LevelScreen.mc" id="26" lineNum="45" parent="globals/LevelScreen" pc="268437217" symbol="draw"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\LevelScreen.mc" id="26" lineNum="46" parent="globals/LevelScreen" pc="268437261" symbol="draw"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="28" lineNum="13" parent="globals/StartBreathing" pc="268437300" symbol="initialize"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="28" lineNum="14" parent="globals/StartBreathing" pc="268437302" symbol="initialize"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="29" lineNum="17" parent="globals/StartBreathing" pc="268437320" symbol="draw"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="29" lineNum="18" parent="globals/StartBreathing" pc="268437323" symbol="draw"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="29" lineNum="19" parent="globals/StartBreathing" pc="268437335" symbol="draw"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="29" lineNum="20" parent="globals/StartBreathing" pc="268437345" symbol="draw"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="29" lineNum="23" parent="globals/StartBreathing" pc="268437361" symbol="draw"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="29" lineNum="24" parent="globals/StartBreathing" pc="268437372" symbol="draw"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="29" lineNum="25" parent="globals/StartBreathing" pc="268437387" symbol="draw"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="29" lineNum="28" parent="globals/StartBreathing" pc="268437405" symbol="draw"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="29" lineNum="29" parent="globals/StartBreathing" pc="268437420" symbol="draw"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="29" lineNum="30" parent="globals/StartBreathing" pc="268437456" symbol="draw"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="29" lineNum="34" parent="globals/StartBreathing" pc="268437474" symbol="draw"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="29" lineNum="42" parent="globals/StartBreathing" pc="268437480" symbol="draw"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="29" lineNum="43" parent="globals/StartBreathing" pc="268437492" symbol="draw"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="29" lineNum="44" parent="globals/StartBreathing" pc="268437504" symbol="draw"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="29" lineNum="45" parent="globals/StartBreathing" pc="268437511" symbol="draw"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="29" lineNum="46" parent="globals/StartBreathing" pc="268437518" symbol="draw"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="29" lineNum="48" parent="globals/StartBreathing" pc="268437547" symbol="draw"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="29" lineNum="51" parent="globals/StartBreathing" pc="268437560" symbol="draw"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="29" lineNum="54" parent="globals/StartBreathing" pc="268437582" symbol="draw"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="29" lineNum="55" parent="globals/StartBreathing" pc="268437590" symbol="draw"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="29" lineNum="56" parent="globals/StartBreathing" pc="268437609" symbol="draw"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="29" lineNum="59" parent="globals/StartBreathing" pc="268437625" symbol="draw"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="29" lineNum="60" parent="globals/StartBreathing" pc="268437650" symbol="draw"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="29" lineNum="61" parent="globals/StartBreathing" pc="268437667" symbol="draw"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="29" lineNum="64" parent="globals/StartBreathing" pc="268437687" symbol="draw"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="29" lineNum="65" parent="globals/StartBreathing" pc="268437703" symbol="draw"/>
-        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="29" lineNum="66" parent="globals/StartBreathing" pc="268437731" symbol="draw"/>
-        <entry filename="c:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\bin\\gen\\006-B3992-00\\source\\Rez.mcgen" id="30" lineNum="14" parent="globals/Rez/Layouts" pc="268437754" symbol="MainLayout"/>
-        <entry filename="c:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\bin\\gen\\006-B3992-00\\source\\Rez.mcgen" id="30" lineNum="15" parent="globals/Rez/Layouts" pc="268437765" symbol="MainLayout"/>
-        <entry filename="c:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\bin\\gen\\006-B3992-00\\source\\Rez.mcgen" id="30" lineNum="17" parent="globals/Rez/Layouts" pc="268437865" symbol="MainLayout"/>
-        <entry filename="c:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\bin\\gen\\006-B3992-00\\source\\Rez.mcgen" id="30" lineNum="18" parent="globals/Rez/Layouts" pc="268437949" symbol="MainLayout"/>
-        <entry filename="c:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\bin\\gen\\006-B3992-00\\source\\Rez.mcgen" id="30" lineNum="20" parent="globals/Rez/Layouts" pc="268437981" symbol="MainLayout"/>
-        <entry filename="c:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\bin\\gen\\006-B3992-00\\source\\Rez.mcgen" id="31" lineNum="25" parent="globals/Rez/Menus/MainMenu" pc="268437996" symbol="&lt;init&gt;"/>
-        <entry filename="c:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\bin\\gen\\006-B3992-00\\source\\Rez.mcgen" id="32" lineNum="26" parent="globals/Rez/Menus/MainMenu" pc="268438008" symbol="initialize"/>
-        <entry filename="c:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\bin\\gen\\006-B3992-00\\source\\Rez.mcgen" id="32" lineNum="27" parent="globals/Rez/Menus/MainMenu" pc="268438010" symbol="initialize"/>
-        <entry filename="c:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\bin\\gen\\006-B3992-00\\source\\Rez.mcgen" id="32" lineNum="28" parent="globals/Rez/Menus/MainMenu" pc="268438022" symbol="initialize"/>
-        <entry filename="c:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\bin\\gen\\006-B3992-00\\source\\Rez.mcgen" id="32" lineNum="29" parent="globals/Rez/Menus/MainMenu" pc="268438067" symbol="initialize"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="7" lineNum="10" parent="globals/StartBreathing" pc="268435549" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="7" lineNum="29" parent="globals/StartBreathing" pc="268435574" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceApp.mc" id="8" lineNum="12" parent="globals/FindYourPeaceApp" pc="268435584" symbol="onStart"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceApp.mc" id="8" lineNum="14" parent="globals/FindYourPeaceApp" pc="268435586" symbol="onStart"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceApp.mc" id="8" lineNum="15" parent="globals/FindYourPeaceApp" pc="268435606" symbol="onStart"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceApp.mc" id="8" lineNum="16" parent="globals/FindYourPeaceApp" pc="268435626" symbol="onStart"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceApp.mc" id="8" lineNum="17" parent="globals/FindYourPeaceApp" pc="268435645" symbol="onStart"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceApp.mc" id="8" lineNum="20" parent="globals/FindYourPeaceApp" pc="268435664" symbol="onStart"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceApp.mc" id="8" lineNum="21" parent="globals/FindYourPeaceApp" pc="268435685" symbol="onStart"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceApp.mc" id="8" lineNum="22" parent="globals/FindYourPeaceApp" pc="268435705" symbol="onStart"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceApp.mc" id="8" lineNum="23" parent="globals/FindYourPeaceApp" pc="268435724" symbol="onStart"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceApp.mc" id="8" lineNum="24" parent="globals/FindYourPeaceApp" pc="268435744" symbol="onStart"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceApp.mc" id="9" lineNum="34" parent="globals/FindYourPeaceApp" pc="268435767" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceApp.mc" id="9" lineNum="35" parent="globals/FindYourPeaceApp" pc="268435769" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceApp.mc" id="10" lineNum="7" parent="globals/FindYourPeaceApp" pc="268435816" symbol="initialize"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceApp.mc" id="10" lineNum="8" parent="globals/FindYourPeaceApp" pc="268435818" symbol="initialize"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceApp.mc" id="11" lineNum="30" parent="globals/FindYourPeaceApp" pc="268435831" symbol="onStop"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceDelegate.mc" id="12" lineNum="11" parent="globals/FindYourPeaceDelegate" pc="268435834" symbol="onMenu"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceDelegate.mc" id="12" lineNum="12" parent="globals/FindYourPeaceDelegate" pc="268435836" symbol="onMenu"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceDelegate.mc" id="12" lineNum="13" parent="globals/FindYourPeaceDelegate" pc="268435901" symbol="onMenu"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceDelegate.mc" id="13" lineNum="84" parent="globals/FindYourPeaceDelegate" pc="268435903" symbol="checkScreen"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceDelegate.mc" id="13" lineNum="85" parent="globals/FindYourPeaceDelegate" pc="268435905" symbol="checkScreen"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceDelegate.mc" id="13" lineNum="86" parent="globals/FindYourPeaceDelegate" pc="268435913" symbol="checkScreen"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceDelegate.mc" id="13" lineNum="87" parent="globals/FindYourPeaceDelegate" pc="268435935" symbol="checkScreen"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceDelegate.mc" id="13" lineNum="88" parent="globals/FindYourPeaceDelegate" pc="268435958" symbol="checkScreen"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceDelegate.mc" id="13" lineNum="90" parent="globals/FindYourPeaceDelegate" pc="268435965" symbol="checkScreen"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceDelegate.mc" id="14" lineNum="78" parent="globals/FindYourPeaceDelegate" pc="268435986" symbol="onSwipe"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceDelegate.mc" id="14" lineNum="80" parent="globals/FindYourPeaceDelegate" pc="268435988" symbol="onSwipe"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceDelegate.mc" id="15" lineNum="7" parent="globals/FindYourPeaceDelegate" pc="268435990" symbol="initialize"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceDelegate.mc" id="15" lineNum="8" parent="globals/FindYourPeaceDelegate" pc="268435992" symbol="initialize"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceDelegate.mc" id="16" lineNum="16" parent="globals/FindYourPeaceDelegate" pc="268436005" symbol="onKey"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceDelegate.mc" id="16" lineNum="17" parent="globals/FindYourPeaceDelegate" pc="268436008" symbol="onKey"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceDelegate.mc" id="16" lineNum="20" parent="globals/FindYourPeaceDelegate" pc="268436017" symbol="onKey"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceDelegate.mc" id="16" lineNum="21" parent="globals/FindYourPeaceDelegate" pc="268436040" symbol="onKey"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceDelegate.mc" id="16" lineNum="22" parent="globals/FindYourPeaceDelegate" pc="268436057" symbol="onKey"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceDelegate.mc" id="16" lineNum="23" parent="globals/FindYourPeaceDelegate" pc="268436065" symbol="onKey"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceDelegate.mc" id="16" lineNum="24" parent="globals/FindYourPeaceDelegate" pc="268436092" symbol="onKey"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceDelegate.mc" id="16" lineNum="25" parent="globals/FindYourPeaceDelegate" pc="268436097" symbol="onKey"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceDelegate.mc" id="16" lineNum="26" parent="globals/FindYourPeaceDelegate" pc="268436105" symbol="onKey"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceDelegate.mc" id="16" lineNum="27" parent="globals/FindYourPeaceDelegate" pc="268436132" symbol="onKey"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceDelegate.mc" id="16" lineNum="28" parent="globals/FindYourPeaceDelegate" pc="268436137" symbol="onKey"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceDelegate.mc" id="16" lineNum="30" parent="globals/FindYourPeaceDelegate" pc="268436145" symbol="onKey"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceDelegate.mc" id="16" lineNum="31" parent="globals/FindYourPeaceDelegate" pc="268436161" symbol="onKey"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceDelegate.mc" id="16" lineNum="34" parent="globals/FindYourPeaceDelegate" pc="268436176" symbol="onKey"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceDelegate.mc" id="16" lineNum="36" parent="globals/FindYourPeaceDelegate" pc="268436188" symbol="onKey"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceDelegate.mc" id="16" lineNum="40" parent="globals/FindYourPeaceDelegate" pc="268436196" symbol="onKey"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceDelegate.mc" id="16" lineNum="41" parent="globals/FindYourPeaceDelegate" pc="268436219" symbol="onKey"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceDelegate.mc" id="16" lineNum="42" parent="globals/FindYourPeaceDelegate" pc="268436227" symbol="onKey"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceDelegate.mc" id="16" lineNum="43" parent="globals/FindYourPeaceDelegate" pc="268436247" symbol="onKey"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceDelegate.mc" id="16" lineNum="48" parent="globals/FindYourPeaceDelegate" pc="268436255" symbol="onKey"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceDelegate.mc" id="16" lineNum="49" parent="globals/FindYourPeaceDelegate" pc="268436300" symbol="onKey"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceDelegate.mc" id="16" lineNum="50" parent="globals/FindYourPeaceDelegate" pc="268436308" symbol="onKey"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceDelegate.mc" id="16" lineNum="51" parent="globals/FindYourPeaceDelegate" pc="268436326" symbol="onKey"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceDelegate.mc" id="16" lineNum="52" parent="globals/FindYourPeaceDelegate" pc="268436346" symbol="onKey"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceDelegate.mc" id="16" lineNum="57" parent="globals/FindYourPeaceDelegate" pc="268436354" symbol="onKey"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceDelegate.mc" id="16" lineNum="58" parent="globals/FindYourPeaceDelegate" pc="268436376" symbol="onKey"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceDelegate.mc" id="16" lineNum="59" parent="globals/FindYourPeaceDelegate" pc="268436384" symbol="onKey"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceDelegate.mc" id="16" lineNum="60" parent="globals/FindYourPeaceDelegate" pc="268436413" symbol="onKey"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceDelegate.mc" id="16" lineNum="62" parent="globals/FindYourPeaceDelegate" pc="268436418" symbol="onKey"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceDelegate.mc" id="16" lineNum="63" parent="globals/FindYourPeaceDelegate" pc="268436426" symbol="onKey"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceDelegate.mc" id="16" lineNum="64" parent="globals/FindYourPeaceDelegate" pc="268436455" symbol="onKey"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceDelegate.mc" id="16" lineNum="66" parent="globals/FindYourPeaceDelegate" pc="268436463" symbol="onKey"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceDelegate.mc" id="16" lineNum="67" parent="globals/FindYourPeaceDelegate" pc="268436486" symbol="onKey"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceDelegate.mc" id="16" lineNum="68" parent="globals/FindYourPeaceDelegate" pc="268436494" symbol="onKey"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceDelegate.mc" id="16" lineNum="69" parent="globals/FindYourPeaceDelegate" pc="268436512" symbol="onKey"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceDelegate.mc" id="16" lineNum="74" parent="globals/FindYourPeaceDelegate" pc="268436538" symbol="onKey"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceMenuDelegate.mc" id="17" lineNum="11" parent="globals/FindYourPeaceMenuDelegate" pc="268436540" symbol="onMenuItem"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceMenuDelegate.mc" id="17" lineNum="12" parent="globals/FindYourPeaceMenuDelegate" pc="268436542" symbol="onMenuItem"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceMenuDelegate.mc" id="17" lineNum="13" parent="globals/FindYourPeaceMenuDelegate" pc="268436553" symbol="onMenuItem"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceMenuDelegate.mc" id="17" lineNum="14" parent="globals/FindYourPeaceMenuDelegate" pc="268436574" symbol="onMenuItem"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceMenuDelegate.mc" id="17" lineNum="15" parent="globals/FindYourPeaceMenuDelegate" pc="268436585" symbol="onMenuItem"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceMenuDelegate.mc" id="18" lineNum="7" parent="globals/FindYourPeaceMenuDelegate" pc="268436607" symbol="initialize"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceMenuDelegate.mc" id="18" lineNum="8" parent="globals/FindYourPeaceMenuDelegate" pc="268436609" symbol="initialize"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\Breathing.mc" id="19" lineNum="8" parent="globals/Breathing" pc="268436622" symbol="draw"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\Breathing.mc" id="19" lineNum="10" parent="globals/Breathing" pc="268436624" symbol="draw"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\Breathing.mc" id="19" lineNum="11" parent="globals/Breathing" pc="268436646" symbol="draw"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\Breathing.mc" id="19" lineNum="15" parent="globals/Breathing" pc="268436657" symbol="draw"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\Breathing.mc" id="19" lineNum="16" parent="globals/Breathing" pc="268436688" symbol="draw"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\Breathing.mc" id="19" lineNum="20" parent="globals/Breathing" pc="268436716" symbol="draw"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\Breathing.mc" id="19" lineNum="21" parent="globals/Breathing" pc="268436747" symbol="draw"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\Breathing.mc" id="19" lineNum="22" parent="globals/Breathing" pc="268436755" symbol="draw"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\Breathing.mc" id="19" lineNum="23" parent="globals/Breathing" pc="268436771" symbol="draw"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\Breathing.mc" id="19" lineNum="26" parent="globals/Breathing" pc="268436775" symbol="draw"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\Breathing.mc" id="19" lineNum="28" parent="globals/Breathing" pc="268436820" symbol="draw"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\Breathing.mc" id="19" lineNum="29" parent="globals/Breathing" pc="268436838" symbol="draw"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\Breathing.mc" id="19" lineNum="30" parent="globals/Breathing" pc="268436891" symbol="draw"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\Breathing.mc" id="19" lineNum="32" parent="globals/Breathing" pc="268436908" symbol="draw"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\Breathing.mc" id="19" lineNum="33" parent="globals/Breathing" pc="268436956" symbol="draw"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceView.mc" id="22" lineNum="19" parent="globals/FindYourPeaceView" pc="268436973" symbol="onLayout"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceView.mc" id="22" lineNum="21" parent="globals/FindYourPeaceView" pc="268436975" symbol="onLayout"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceView.mc" id="22" lineNum="22" parent="globals/FindYourPeaceView" pc="268436989" symbol="onLayout"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceView.mc" id="22" lineNum="23" parent="globals/FindYourPeaceView" pc="268437003" symbol="onLayout"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceView.mc" id="22" lineNum="24" parent="globals/FindYourPeaceView" pc="268437028" symbol="onLayout"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceView.mc" id="23" lineNum="14" parent="globals/FindYourPeaceView" pc="268437054" symbol="initialize"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceView.mc" id="23" lineNum="15" parent="globals/FindYourPeaceView" pc="268437056" symbol="initialize"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceView.mc" id="25" lineNum="35" parent="globals/FindYourPeaceView" pc="268437069" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceView.mc" id="25" lineNum="36" parent="globals/FindYourPeaceView" pc="268437071" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceView.mc" id="25" lineNum="37" parent="globals/FindYourPeaceView" pc="268437091" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceView.mc" id="25" lineNum="39" parent="globals/FindYourPeaceView" pc="268437099" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceView.mc" id="25" lineNum="41" parent="globals/FindYourPeaceView" pc="268437123" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceView.mc" id="25" lineNum="42" parent="globals/FindYourPeaceView" pc="268437134" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceView.mc" id="25" lineNum="43" parent="globals/FindYourPeaceView" pc="268437153" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceView.mc" id="25" lineNum="44" parent="globals/FindYourPeaceView" pc="268437164" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\FindYourPeaceView.mc" id="25" lineNum="49" parent="globals/FindYourPeaceView" pc="268437183" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\Resulting.mc" id="26" lineNum="31" parent="globals/Resulting" pc="268437195" symbol="draw"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\Resulting.mc" id="26" lineNum="32" parent="globals/Resulting" pc="268437197" symbol="draw"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\Resulting.mc" id="26" lineNum="33" parent="globals/Resulting" pc="268437205" symbol="draw"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\Resulting.mc" id="26" lineNum="34" parent="globals/Resulting" pc="268437259" symbol="draw"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\Resulting.mc" id="26" lineNum="36" parent="globals/Resulting" pc="268437313" symbol="draw"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\Resulting.mc" id="26" lineNum="37" parent="globals/Resulting" pc="268437331" symbol="draw"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\Resulting.mc" id="26" lineNum="38" parent="globals/Resulting" pc="268437384" symbol="draw"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\Resulting.mc" id="26" lineNum="40" parent="globals/Resulting" pc="268437401" symbol="draw"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\Resulting.mc" id="26" lineNum="41" parent="globals/Resulting" pc="268437449" symbol="draw"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\Resulting.mc" id="28" lineNum="14" parent="globals/Resulting" pc="268437466" symbol="resulting"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\Resulting.mc" id="28" lineNum="15" parent="globals/Resulting" pc="268437469" symbol="resulting"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\Resulting.mc" id="28" lineNum="16" parent="globals/Resulting" pc="268437476" symbol="resulting"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\Resulting.mc" id="28" lineNum="17" parent="globals/Resulting" pc="268437494" symbol="resulting"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\Resulting.mc" id="28" lineNum="18" parent="globals/Resulting" pc="268437515" symbol="resulting"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\Resulting.mc" id="28" lineNum="19" parent="globals/Resulting" pc="268437551" symbol="resulting"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\Resulting.mc" id="28" lineNum="19" parent="globals/Resulting" pc="268437561" symbol="resulting"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\Resulting.mc" id="28" lineNum="22" parent="globals/Resulting" pc="268437575" symbol="resulting"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\Resulting.mc" id="28" lineNum="23" parent="globals/Resulting" pc="268437613" symbol="resulting"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\Resulting.mc" id="28" lineNum="24" parent="globals/Resulting" pc="268437635" symbol="resulting"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\Resulting.mc" id="28" lineNum="25" parent="globals/Resulting" pc="268437655" symbol="resulting"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\Resulting.mc" id="28" lineNum="26" parent="globals/Resulting" pc="268437729" symbol="resulting"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\Resulting.mc" id="28" lineNum="27" parent="globals/Resulting" pc="268437782" symbol="resulting"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\LevelScreen.mc" id="29" lineNum="51" parent="globals/LevelScreen" pc="268437815" symbol="drawLevelBar"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\LevelScreen.mc" id="29" lineNum="52" parent="globals/LevelScreen" pc="268437818" symbol="drawLevelBar"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\LevelScreen.mc" id="29" lineNum="53" parent="globals/LevelScreen" pc="268437831" symbol="drawLevelBar"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\LevelScreen.mc" id="29" lineNum="53" parent="globals/LevelScreen" pc="268437839" symbol="drawLevelBar"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\LevelScreen.mc" id="29" lineNum="56" parent="globals/LevelScreen" pc="268437846" symbol="drawLevelBar"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\LevelScreen.mc" id="29" lineNum="57" parent="globals/LevelScreen" pc="268437863" symbol="drawLevelBar"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\LevelScreen.mc" id="29" lineNum="59" parent="globals/LevelScreen" pc="268437881" symbol="drawLevelBar"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\LevelScreen.mc" id="29" lineNum="61" parent="globals/LevelScreen" pc="268437888" symbol="drawLevelBar"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\LevelScreen.mc" id="29" lineNum="62" parent="globals/LevelScreen" pc="268437904" symbol="drawLevelBar"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\LevelScreen.mc" id="29" lineNum="65" parent="globals/LevelScreen" pc="268437934" symbol="drawLevelBar"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\LevelScreen.mc" id="30" lineNum="6" parent="globals/LevelScreen" pc="268437951" symbol="draw"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\LevelScreen.mc" id="30" lineNum="7" parent="globals/LevelScreen" pc="268437954" symbol="draw"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\LevelScreen.mc" id="30" lineNum="8" parent="globals/LevelScreen" pc="268437973" symbol="draw"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\LevelScreen.mc" id="30" lineNum="9" parent="globals/LevelScreen" pc="268437992" symbol="draw"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\LevelScreen.mc" id="30" lineNum="10" parent="globals/LevelScreen" pc="268438011" symbol="draw"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\LevelScreen.mc" id="30" lineNum="12" parent="globals/LevelScreen" pc="268438030" symbol="draw"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\LevelScreen.mc" id="30" lineNum="13" parent="globals/LevelScreen" pc="268438039" symbol="draw"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\LevelScreen.mc" id="30" lineNum="14" parent="globals/LevelScreen" pc="268438048" symbol="draw"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\LevelScreen.mc" id="30" lineNum="16" parent="globals/LevelScreen" pc="268438053" symbol="draw"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\LevelScreen.mc" id="30" lineNum="17" parent="globals/LevelScreen" pc="268438063" symbol="draw"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\LevelScreen.mc" id="30" lineNum="37" parent="globals/LevelScreen" pc="268438073" symbol="draw"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\LevelScreen.mc" id="30" lineNum="38" parent="globals/LevelScreen" pc="268438084" symbol="draw"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\LevelScreen.mc" id="30" lineNum="39" parent="globals/LevelScreen" pc="268438119" symbol="draw"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\LevelScreen.mc" id="30" lineNum="41" parent="globals/LevelScreen" pc="268438157" symbol="draw"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\LevelScreen.mc" id="30" lineNum="42" parent="globals/LevelScreen" pc="268438189" symbol="draw"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\LevelScreen.mc" id="30" lineNum="45" parent="globals/LevelScreen" pc="268438221" symbol="draw"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\LevelScreen.mc" id="30" lineNum="46" parent="globals/LevelScreen" pc="268438265" symbol="draw"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="32" lineNum="137" parent="globals/StartBreathing" pc="268438304" symbol="endBreathing"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="32" lineNum="138" parent="globals/StartBreathing" pc="268438306" symbol="endBreathing"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="32" lineNum="140" parent="globals/StartBreathing" pc="268438324" symbol="endBreathing"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="32" lineNum="142" parent="globals/StartBreathing" pc="268438366" symbol="endBreathing"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="33" lineNum="35" parent="globals/StartBreathing" pc="268438387" symbol="draw"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="33" lineNum="38" parent="globals/StartBreathing" pc="268438390" symbol="draw"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="33" lineNum="39" parent="globals/StartBreathing" pc="268438413" symbol="draw"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="33" lineNum="40" parent="globals/StartBreathing" pc="268438429" symbol="draw"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="33" lineNum="43" parent="globals/StartBreathing" pc="268438433" symbol="draw"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="33" lineNum="44" parent="globals/StartBreathing" pc="268438455" symbol="draw"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="33" lineNum="45" parent="globals/StartBreathing" pc="268438469" symbol="draw"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="33" lineNum="46" parent="globals/StartBreathing" pc="268438481" symbol="draw"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="33" lineNum="47" parent="globals/StartBreathing" pc="268438495" symbol="draw"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="33" lineNum="49" parent="globals/StartBreathing" pc="268438510" symbol="draw"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="33" lineNum="50" parent="globals/StartBreathing" pc="268438529" symbol="draw"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="33" lineNum="54" parent="globals/StartBreathing" pc="268438550" symbol="draw"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="33" lineNum="56" parent="globals/StartBreathing" pc="268438573" symbol="draw"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="33" lineNum="57" parent="globals/StartBreathing" pc="268438580" symbol="draw"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="33" lineNum="58" parent="globals/StartBreathing" pc="268438598" symbol="draw"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="33" lineNum="59" parent="globals/StartBreathing" pc="268438616" symbol="draw"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="33" lineNum="60" parent="globals/StartBreathing" pc="268438635" symbol="draw"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="33" lineNum="61" parent="globals/StartBreathing" pc="268438675" symbol="draw"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="33" lineNum="62" parent="globals/StartBreathing" pc="268438692" symbol="draw"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="33" lineNum="63" parent="globals/StartBreathing" pc="268438726" symbol="draw"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="33" lineNum="65" parent="globals/StartBreathing" pc="268438760" symbol="draw"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="33" lineNum="68" parent="globals/StartBreathing" pc="268438764" symbol="draw"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="33" lineNum="69" parent="globals/StartBreathing" pc="268438788" symbol="draw"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="33" lineNum="70" parent="globals/StartBreathing" pc="268438800" symbol="draw"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="33" lineNum="71" parent="globals/StartBreathing" pc="268438816" symbol="draw"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="33" lineNum="74" parent="globals/StartBreathing" pc="268438832" symbol="draw"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="33" lineNum="75" parent="globals/StartBreathing" pc="268438843" symbol="draw"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="33" lineNum="76" parent="globals/StartBreathing" pc="268438858" symbol="draw"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="33" lineNum="79" parent="globals/StartBreathing" pc="268438876" symbol="draw"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="33" lineNum="80" parent="globals/StartBreathing" pc="268438891" symbol="draw"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="33" lineNum="81" parent="globals/StartBreathing" pc="268438927" symbol="draw"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="33" lineNum="85" parent="globals/StartBreathing" pc="268438945" symbol="draw"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="33" lineNum="93" parent="globals/StartBreathing" pc="268438951" symbol="draw"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="33" lineNum="94" parent="globals/StartBreathing" pc="268438963" symbol="draw"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="33" lineNum="95" parent="globals/StartBreathing" pc="268438975" symbol="draw"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="33" lineNum="96" parent="globals/StartBreathing" pc="268438982" symbol="draw"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="33" lineNum="97" parent="globals/StartBreathing" pc="268438989" symbol="draw"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="33" lineNum="99" parent="globals/StartBreathing" pc="268439018" symbol="draw"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="33" lineNum="102" parent="globals/StartBreathing" pc="268439031" symbol="draw"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="33" lineNum="105" parent="globals/StartBreathing" pc="268439053" symbol="draw"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="33" lineNum="106" parent="globals/StartBreathing" pc="268439061" symbol="draw"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="33" lineNum="107" parent="globals/StartBreathing" pc="268439080" symbol="draw"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="33" lineNum="110" parent="globals/StartBreathing" pc="268439096" symbol="draw"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="33" lineNum="111" parent="globals/StartBreathing" pc="268439121" symbol="draw"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="33" lineNum="112" parent="globals/StartBreathing" pc="268439138" symbol="draw"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="33" lineNum="115" parent="globals/StartBreathing" pc="268439158" symbol="draw"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="33" lineNum="116" parent="globals/StartBreathing" pc="268439179" symbol="draw"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="33" lineNum="117" parent="globals/StartBreathing" pc="268439266" symbol="draw"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="33" lineNum="119" parent="globals/StartBreathing" pc="268439294" symbol="draw"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="33" lineNum="120" parent="globals/StartBreathing" pc="268439311" symbol="draw"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="33" lineNum="121" parent="globals/StartBreathing" pc="268439317" symbol="draw"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="33" lineNum="124" parent="globals/StartBreathing" pc="268439323" symbol="draw"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="33" lineNum="125" parent="globals/StartBreathing" pc="268439380" symbol="draw"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="34" lineNum="129" parent="globals/StartBreathing" pc="268439435" symbol="pad2"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="34" lineNum="130" parent="globals/StartBreathing" pc="268439437" symbol="pad2"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="34" lineNum="131" parent="globals/StartBreathing" pc="268439454" symbol="pad2"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="34" lineNum="133" parent="globals/StartBreathing" pc="268439460" symbol="pad2"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="35" lineNum="163" parent="globals/StartBreathing" pc="268439482" symbol="getMedian"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="35" lineNum="164" parent="globals/StartBreathing" pc="268439485" symbol="getMedian"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="35" lineNum="165" parent="globals/StartBreathing" pc="268439504" symbol="getMedian"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="35" lineNum="169" parent="globals/StartBreathing" pc="268439509" symbol="getMedian"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="35" lineNum="170" parent="globals/StartBreathing" pc="268439513" symbol="getMedian"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="35" lineNum="171" parent="globals/StartBreathing" pc="268439529" symbol="getMedian"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="35" lineNum="173" parent="globals/StartBreathing" pc="268439554" symbol="getMedian"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="35" lineNum="176" parent="globals/StartBreathing" pc="268439563" symbol="getMedian"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="35" lineNum="177" parent="globals/StartBreathing" pc="268439577" symbol="getMedian"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="35" lineNum="178" parent="globals/StartBreathing" pc="268439594" symbol="getMedian"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="35" lineNum="179" parent="globals/StartBreathing" pc="268439611" symbol="getMedian"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="35" lineNum="180" parent="globals/StartBreathing" pc="268439618" symbol="getMedian"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="35" lineNum="181" parent="globals/StartBreathing" pc="268439631" symbol="getMedian"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="35" lineNum="187" parent="globals/StartBreathing" pc="268439664" symbol="getMedian"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="35" lineNum="189" parent="globals/StartBreathing" pc="268439675" symbol="getMedian"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="35" lineNum="192" parent="globals/StartBreathing" pc="268439687" symbol="getMedian"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="35" lineNum="193" parent="globals/StartBreathing" pc="268439700" symbol="getMedian"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="35" lineNum="194" parent="globals/StartBreathing" pc="268439710" symbol="getMedian"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="36" lineNum="145" parent="globals/StartBreathing" pc="268439723" symbol="continueBreathing"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="36" lineNum="146" parent="globals/StartBreathing" pc="268439725" symbol="continueBreathing"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="36" lineNum="147" parent="globals/StartBreathing" pc="268439743" symbol="continueBreathing"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="36" lineNum="148" parent="globals/StartBreathing" pc="268439751" symbol="continueBreathing"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="36" lineNum="149" parent="globals/StartBreathing" pc="268439759" symbol="continueBreathing"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="37" lineNum="31" parent="globals/StartBreathing" pc="268439780" symbol="initialize"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="37" lineNum="32" parent="globals/StartBreathing" pc="268439782" symbol="initialize"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="38" lineNum="152" parent="globals/StartBreathing" pc="268439800" symbol="pauzeBreathing"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="38" lineNum="153" parent="globals/StartBreathing" pc="268439802" symbol="pauzeBreathing"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="38" lineNum="154" parent="globals/StartBreathing" pc="268439820" symbol="pauzeBreathing"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="38" lineNum="155" parent="globals/StartBreathing" pc="268439830" symbol="pauzeBreathing"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="38" lineNum="156" parent="globals/StartBreathing" pc="268439838" symbol="pauzeBreathing"/>
+        <entry filename="C:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\source\\StartBreathing.mc" id="38" lineNum="159" parent="globals/StartBreathing" pc="268439858" symbol="pauzeBreathing"/>
+        <entry filename="c:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\bin\\gen\\006-B3992-00\\source\\Rez.mcgen" id="39" lineNum="14" parent="globals/Rez/Layouts" pc="268439882" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\bin\\gen\\006-B3992-00\\source\\Rez.mcgen" id="39" lineNum="15" parent="globals/Rez/Layouts" pc="268439893" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\bin\\gen\\006-B3992-00\\source\\Rez.mcgen" id="39" lineNum="17" parent="globals/Rez/Layouts" pc="268439993" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\bin\\gen\\006-B3992-00\\source\\Rez.mcgen" id="39" lineNum="18" parent="globals/Rez/Layouts" pc="268440077" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\bin\\gen\\006-B3992-00\\source\\Rez.mcgen" id="39" lineNum="20" parent="globals/Rez/Layouts" pc="268440109" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\bin\\gen\\006-B3992-00\\source\\Rez.mcgen" id="40" lineNum="25" parent="globals/Rez/Menus/MainMenu" pc="268440124" symbol="&lt;init&gt;"/>
+        <entry filename="c:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\bin\\gen\\006-B3992-00\\source\\Rez.mcgen" id="41" lineNum="26" parent="globals/Rez/Menus/MainMenu" pc="268440136" symbol="initialize"/>
+        <entry filename="c:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\bin\\gen\\006-B3992-00\\source\\Rez.mcgen" id="41" lineNum="27" parent="globals/Rez/Menus/MainMenu" pc="268440138" symbol="initialize"/>
+        <entry filename="c:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\bin\\gen\\006-B3992-00\\source\\Rez.mcgen" id="41" lineNum="28" parent="globals/Rez/Menus/MainMenu" pc="268440150" symbol="initialize"/>
+        <entry filename="c:\\Users\\Matej\\OneDrive\\Počítač\\garmin\\FindYourPeace\\bin\\gen\\006-B3992-00\\source\\Rez.mcgen" id="41" lineNum="29" parent="globals/Rez/Menus/MainMenu" pc="268440195" symbol="initialize"/>
     </pcToLineNum>
     <symbolTable>
         <entry id="8388639" module="true" symbol="Graphics"/>
         <entry id="8389346" symbol="text"/>
-        <entry id="13" object="true" symbol="LevelScreen"/>
+        <entry field="true" id="8389344" symbol="seconds"/>
+        <entry id="14" object="true" symbol="LevelScreen"/>
         <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
-        <entry id="6" module="true" symbol="globals/Rez/Menus"/>
+        <entry id="7" module="true" symbol="globals/Rez/Menus"/>
         <entry field="true" id="8388731" symbol="startTime"/>
-        <entry id="28" method="true" symbol="MainLayout"/>
-        <entry id="11" object="true" symbol="FindYourPeaceMenuDelegate"/>
-        <entry field="true" id="24" symbol="phase"/>
-        <entry field="true" id="19" symbol="_breathing"/>
-        <entry id="14" object="true" symbol="StartBreathing"/>
-        <entry id="8" object="true" symbol="Breathing"/>
-        <entry field="true" id="20" symbol="_level"/>
-        <entry id="12" object="true" symbol="FindYourPeaceView"/>
+        <entry id="51" method="true" symbol="MainLayout"/>
+        <entry id="12" object="true" symbol="FindYourPeaceMenuDelegate"/>
+        <entry field="true" id="45" symbol="phase"/>
+        <entry field="true" id="22" symbol="_breathing"/>
+        <entry id="16" object="true" symbol="StartBreathing"/>
+        <entry id="9" object="true" symbol="Breathing"/>
+        <entry id="39" method="true" symbol="pad2"/>
+        <entry field="true" id="42" symbol="pauze_start"/>
+        <entry field="true" id="23" symbol="_level"/>
+        <entry id="13" object="true" symbol="FindYourPeaceView"/>
         <entry field="true" id="8388611" module="true" symbol="Toybox"/>
-        <entry id="15" method="true" symbol="checkScreen"/>
-        <entry field="true" id="30" symbol="AppName"/>
-        <entry id="7" module="true" symbol="globals/Rez/Strings"/>
-        <entry field="true" id="23" symbol="numberOfPhases"/>
+        <entry id="18" method="true" symbol="checkScreen"/>
+        <entry field="true" id="54" symbol="breath_in"/>
+        <entry field="true" id="53" symbol="AppName"/>
+        <entry field="true" id="32" symbol="choice"/>
+        <entry field="true" id="27" symbol="points"/>
+        <entry id="8" module="true" symbol="globals/Rez/Strings"/>
+        <entry field="true" id="38" symbol="numberOfPhases"/>
         <entry id="8389080" method="true" symbol="onMenu"/>
+        <entry field="true" id="30" symbol="_Resulting"/>
         <entry id="8389345" symbol="rezId"/>
+        <entry id="35" method="true" symbol="getMedian"/>
+        <entry field="true" id="36" symbol="last_sec"/>
         <entry id="8388648" module="true" symbol="WatchUi"/>
-        <entry id="3" module="true" symbol="globals/Rez"/>
-        <entry field="true" id="33" symbol="prompt"/>
-        <entry field="true" id="27" symbol="id_monkey"/>
+        <entry field="true" id="41" symbol="pauze_now"/>
+        <entry id="4" module="true" symbol="globals/Rez"/>
+        <entry field="true" id="59" symbol="resonant_breathing"/>
+        <entry field="true" id="58" symbol="prompt"/>
+        <entry field="true" id="50" symbol="id_monkey"/>
         <entry id="8389124" method="true" symbol="onUpdate"/>
         <entry field="true" id="8389065" symbol="locY"/>
         <entry field="true" id="8389064" symbol="locX"/>
+        <entry id="28" method="true" symbol="resulting"/>
         <entry id="8388771" module="true" object="true" symbol="Drawables"/>
         <entry id="8389348" symbol="font"/>
+        <entry id="2" module="true" symbol="globals/Breathing/&lt;statics&gt;"/>
         <entry field="true" id="8389067" symbol="height"/>
-        <entry id="35" symbol="item_2"/>
-        <entry id="34" symbol="item_1"/>
-        <entry id="17" module="true" symbol="Menus"/>
+        <entry id="62" symbol="item_2"/>
+        <entry id="61" symbol="item_1"/>
+        <entry id="20" module="true" symbol="Menus"/>
         <entry id="8389275" method="true" symbol="getApp"/>
-        <entry id="5" module="true" symbol="globals/Rez/Layouts"/>
-        <entry field="true" id="18" symbol="_startBreathing"/>
+        <entry id="6" module="true" symbol="globals/Rez/Layouts"/>
+        <entry field="true" id="44" symbol="pauze_total"/>
+        <entry field="true" id="8389742" symbol="foregroundColor"/>
+        <entry field="true" id="21" symbol="_startBreathing"/>
         <entry field="true" id="8389066" symbol="width"/>
         <entry id="8389122" method="true" symbol="onLayout"/>
         <entry field="true" id="8389063" symbol="identifier"/>
+        <entry field="true" id="60" symbol="time"/>
         <entry id="8389349" symbol="justification"/>
         <entry id="8388987" method="true" symbol="vibrate"/>
-        <entry id="4" module="true" symbol="globals/Rez/Drawables"/>
-        <entry id="29" object="true" symbol="MainMenu"/>
-        <entry id="2" module="true" symbol="globals/FindYourPeaceView/&lt;statics&gt;"/>
-        <entry id="22" method="true" symbol="drawLevelBar"/>
+        <entry id="5" module="true" symbol="globals/Rez/Drawables"/>
+        <entry id="52" object="true" symbol="MainMenu"/>
+        <entry id="3" module="true" symbol="globals/FindYourPeaceView/&lt;statics&gt;"/>
+        <entry id="33" method="true" symbol="continueBreathing"/>
+        <entry id="29" method="true" symbol="drawLevelBar"/>
         <entry id="8388644" module="true" symbol="System"/>
         <entry id="8388769" module="true" object="true" symbol="Rez"/>
-        <entry field="true" id="25" symbol="phaseDurationMs"/>
+        <entry field="true" id="25" symbol="eff"/>
+        <entry field="true" id="46" symbol="phaseDurationMs"/>
         <entry id="8388640" module="true" symbol="Lang"/>
-        <entry id="9" object="true" symbol="FindYourPeaceApp"/>
+        <entry id="10" object="true" symbol="FindYourPeaceApp"/>
         <entry id="8389068" method="true" symbol="draw"/>
-        <entry field="true" id="26" symbol="LauncherIcon"/>
+        <entry field="true" id="49" symbol="LauncherIcon"/>
         <entry id="8388610" symbol="statics"/>
         <entry id="8389123" method="true" symbol="onShow"/>
+        <entry id="8388643" module="true" symbol="Sensor"/>
         <entry id="8389350" module="true" symbol="globals"/>
+        <entry field="true" id="43" symbol="pauze_start_time"/>
         <entry id="8388770" module="true" object="true" symbol="Strings"/>
+        <entry field="true" id="31" symbol="avg_stres"/>
         <entry id="8388702" method="true" symbol="initialize"/>
+        <entry id="34" method="true" symbol="endBreathing"/>
         <entry id="8389279" method="true" symbol="onStart"/>
-        <entry field="true" id="21" symbol="screen"/>
-        <entry id="10" object="true" symbol="FindYourPeaceDelegate"/>
+        <entry field="true" id="24" symbol="screen"/>
+        <entry field="true" id="17" symbol="_StartBreathing"/>
+        <entry field="true" id="55" symbol="breath_out"/>
+        <entry field="true" id="26" symbol="eff_multipler"/>
+        <entry id="11" object="true" symbol="FindYourPeaceDelegate"/>
         <entry id="8389280" method="true" symbol="getInitialView"/>
+        <entry field="true" id="37" symbol="max_stress"/>
         <entry id="8389281" method="true" symbol="onStop"/>
+        <entry id="15" object="true" symbol="Resulting"/>
         <entry id="8389109" method="true" symbol="onMenuItem"/>
         <entry field="true" id="8389347" symbol="color"/>
+        <entry field="true" id="48" symbol="stress_median"/>
         <entry id="8389097" method="true" symbol="onKey"/>
-        <entry id="16" module="true" symbol="Layouts"/>
+        <entry id="19" module="true" symbol="Layouts"/>
         <entry id="8388636" module="true" symbol="Attention"/>
+        <entry field="true" id="8388698" method="true" symbol="start"/>
+        <entry id="40" method="true" symbol="pauzeBreathing"/>
+        <entry field="true" id="8389743" symbol="backgroundColor"/>
         <entry id="8389125" method="true" symbol="onHide"/>
         <entry id="8388635" module="true" symbol="Application"/>
-        <entry field="true" id="32" symbol="menu_label_2"/>
-        <entry field="true" id="31" symbol="menu_label_1"/>
+        <entry field="true" id="57" symbol="menu_label_2"/>
+        <entry field="true" id="56" symbol="menu_label_1"/>
         <entry id="8389101" method="true" symbol="onSwipe"/>
+        <entry field="true" id="47" symbol="stress"/>
     </symbolTable>
     <localVars>
-        <entry arg="true" endPc="268435731" name="state" stackId="1" startPc="268435549"/>
-        <entry arg="true" endPc="268435950" name="current" stackId="1" startPc="268435868"/>
-        <entry arg="true" endPc="268436047" name="swipeEvent" stackId="1" startPc="268435951"/>
-        <entry endPc="268436047" name="direction" stackId="2" startPc="268435954"/>
-        <entry arg="true" endPc="268436235" name="keyEvent" stackId="1" startPc="268436063"/>
-        <entry endPc="268436235" name="key" stackId="2" startPc="268436066"/>
-        <entry arg="true" endPc="268436302" name="item" stackId="1" startPc="268436236"/>
-        <entry arg="true" endPc="268436592" name="dc" stackId="1" startPc="268436318"/>
-        <entry arg="true" endPc="268436673" name="dc" stackId="1" startPc="268436593"/>
-        <entry arg="true" endPc="268436810" name="dc" stackId="1" startPc="268436689"/>
-        <entry arg="true" endPc="268436946" name="dc" stackId="1" startPc="268436811"/>
-        <entry arg="true" endPc="268436946" name="middle_x" stackId="2" startPc="268436811"/>
-        <entry arg="true" endPc="268436946" name="y" stackId="3" startPc="268436811"/>
-        <entry arg="true" endPc="268436946" name="barW" stackId="4" startPc="268436811"/>
-        <entry arg="true" endPc="268436946" name="barH" stackId="5" startPc="268436811"/>
-        <entry arg="true" endPc="268436946" name="progress" stackId="6" startPc="268436811"/>
-        <entry arg="true" endPc="268436946" name="needed" stackId="7" startPc="268436811"/>
-        <entry endPc="268436945" name="percentual_needed" stackId="8" startPc="268436814"/>
-        <entry arg="true" endPc="268437299" name="dc" stackId="1" startPc="268436947"/>
-        <entry endPc="268437298" name="level" stackId="2" startPc="268436950"/>
-        <entry endPc="268437298" name="progress" stackId="3" startPc="268436950"/>
-        <entry endPc="268437298" name="needed" stackId="4" startPc="268436950"/>
-        <entry endPc="268437298" name="hotstreak" stackId="5" startPc="268436950"/>
-        <entry endPc="268437298" name="width" stackId="6" startPc="268436950"/>
-        <entry endPc="268437298" name="height" stackId="7" startPc="268436950"/>
-        <entry endPc="268437298" name="minimalWatches" stackId="8" startPc="268436950"/>
-        <entry endPc="268437298" name="barW" stackId="9" startPc="268436950"/>
-        <entry endPc="268437298" name="barH" stackId="10" startPc="268436950"/>
-        <entry arg="true" endPc="268437753" name="dc" stackId="1" startPc="268437320"/>
-        <entry endPc="268437752" name="now" stackId="2" startPc="268437323"/>
-        <entry endPc="268437752" name="totalTimeMs" stackId="3" startPc="268437323"/>
-        <entry endPc="268437752" name="phaseTimeMs" stackId="4" startPc="268437323"/>
-        <entry endPc="268437470" name="vibe" stackId="5" startPc="268437420"/>
-        <entry endPc="268437752" name="w" stackId="6" startPc="268437323"/>
-        <entry endPc="268437752" name="h" stackId="7" startPc="268437323"/>
-        <entry endPc="268437752" name="cx" stackId="8" startPc="268437323"/>
-        <entry endPc="268437752" name="cy" stackId="9" startPc="268437323"/>
-        <entry endPc="268437752" name="maxR" stackId="10" startPc="268437323"/>
-        <entry endPc="268437752" name="t" stackId="11" startPc="268437323"/>
-        <entry endPc="268437752" name="r" stackId="12" startPc="268437323"/>
-        <entry endPc="268437752" name="phaseText" stackId="13" startPc="268437323"/>
-        <entry endPc="268437752" name="seconds" stackId="14" startPc="268437323"/>
-        <entry endPc="268437752" name="timeStr" stackId="15" startPc="268437323"/>
-        <entry arg="true" endPc="268437995" name="dc" stackId="1" startPc="268437754"/>
-        <entry endPc="268437995" name="rez_cmp_local_text_1193959466" stackId="2" startPc="268437765"/>
-        <entry endPc="268437995" name="rez_cmp_local_bitmap_id_monkey" stackId="3" startPc="268437765"/>
+        <entry arg="true" endPc="268435766" name="state" stackId="1" startPc="268435584"/>
+        <entry arg="true" endPc="268435985" name="current" stackId="1" startPc="268435903"/>
+        <entry arg="true" endPc="268435989" name="swipeEvent" stackId="1" startPc="268435986"/>
+        <entry arg="true" endPc="268436539" name="keyEvent" stackId="1" startPc="268436005"/>
+        <entry endPc="268436539" name="key" stackId="2" startPc="268436008"/>
+        <entry arg="true" endPc="268436606" name="item" stackId="1" startPc="268436540"/>
+        <entry arg="true" endPc="268436972" name="dc" stackId="1" startPc="268436622"/>
+        <entry arg="true" endPc="268437053" name="dc" stackId="1" startPc="268436973"/>
+        <entry arg="true" endPc="268437194" name="dc" stackId="1" startPc="268437069"/>
+        <entry arg="true" endPc="268437465" name="dc" stackId="1" startPc="268437195"/>
+        <entry arg="true" endPc="268437814" name="seconds" stackId="1" startPc="268437466"/>
+        <entry arg="true" endPc="268437814" name="avg_stres" stackId="2" startPc="268437466"/>
+        <entry arg="true" endPc="268437814" name="max_stress" stackId="3" startPc="268437466"/>
+        <entry arg="true" endPc="268437814" name="stress_median" stackId="4" startPc="268437466"/>
+        <entry endPc="268437810" name="playerlvl" stackId="5" startPc="268437613"/>
+        <entry arg="true" endPc="268437950" name="dc" stackId="1" startPc="268437815"/>
+        <entry arg="true" endPc="268437950" name="middle_x" stackId="2" startPc="268437815"/>
+        <entry arg="true" endPc="268437950" name="y" stackId="3" startPc="268437815"/>
+        <entry arg="true" endPc="268437950" name="barW" stackId="4" startPc="268437815"/>
+        <entry arg="true" endPc="268437950" name="barH" stackId="5" startPc="268437815"/>
+        <entry arg="true" endPc="268437950" name="progress" stackId="6" startPc="268437815"/>
+        <entry arg="true" endPc="268437950" name="needed" stackId="7" startPc="268437815"/>
+        <entry endPc="268437949" name="percentual_needed" stackId="8" startPc="268437818"/>
+        <entry arg="true" endPc="268438303" name="dc" stackId="1" startPc="268437951"/>
+        <entry endPc="268438302" name="level" stackId="2" startPc="268437954"/>
+        <entry endPc="268438302" name="progress" stackId="3" startPc="268437954"/>
+        <entry endPc="268438302" name="needed" stackId="4" startPc="268437954"/>
+        <entry endPc="268438302" name="hotstreak" stackId="5" startPc="268437954"/>
+        <entry endPc="268438302" name="width" stackId="6" startPc="268437954"/>
+        <entry endPc="268438302" name="height" stackId="7" startPc="268437954"/>
+        <entry endPc="268438302" name="minimalWatches" stackId="8" startPc="268437954"/>
+        <entry endPc="268438302" name="barW" stackId="9" startPc="268437954"/>
+        <entry endPc="268438302" name="barH" stackId="10" startPc="268437954"/>
+        <entry arg="true" endPc="268439434" name="dc" stackId="1" startPc="268438387"/>
+        <entry endPc="268438760" name="con_but_height" stackId="2" startPc="268438573"/>
+        <entry endPc="268438760" name="stop_but_height" stackId="3" startPc="268438573"/>
+        <entry endPc="268439433" name="now" stackId="4" startPc="268438390"/>
+        <entry endPc="268439433" name="totalTimeMs" stackId="5" startPc="268438390"/>
+        <entry endPc="268439433" name="phaseTimeMs" stackId="6" startPc="268438390"/>
+        <entry endPc="268438941" name="vibe" stackId="7" startPc="268438891"/>
+        <entry endPc="268439433" name="w" stackId="8" startPc="268438390"/>
+        <entry endPc="268439433" name="h" stackId="9" startPc="268438390"/>
+        <entry endPc="268439433" name="cx" stackId="10" startPc="268438390"/>
+        <entry endPc="268439433" name="cy" stackId="11" startPc="268438390"/>
+        <entry endPc="268439433" name="maxR" stackId="12" startPc="268438390"/>
+        <entry endPc="268439433" name="t" stackId="13" startPc="268438390"/>
+        <entry endPc="268439433" name="r" stackId="14" startPc="268438390"/>
+        <entry endPc="268439433" name="phaseText" stackId="15" startPc="268438390"/>
+        <entry endPc="268439433" name="timeStr" stackId="16" startPc="268438390"/>
+        <entry endPc="268439433" name="HR" stackId="17" startPc="268438390"/>
+        <entry arg="true" endPc="268439481" name="n" stackId="1" startPc="268439435"/>
+        <entry arg="true" endPc="268439481" name="k" stackId="2" startPc="268439435"/>
+        <entry arg="true" endPc="268439722" name="values" stackId="1" startPc="268439482"/>
+        <entry endPc="268439721" name="arr" stackId="2" startPc="268439485"/>
+        <entry endPc="268439553" name="i" stackId="3" startPc="268439529"/>
+        <entry endPc="268439721" name="n" stackId="4" startPc="268439485"/>
+        <entry endPc="268439663" name="i" stackId="5" startPc="268439577"/>
+        <entry endPc="268439653" name="j" stackId="6" startPc="268439594"/>
+        <entry endPc="268439640" name="temp" stackId="7" startPc="268439611"/>
+        <entry endPc="268439721" name="mid1" stackId="8" startPc="268439687"/>
+        <entry endPc="268439721" name="mid2" stackId="9" startPc="268439687"/>
+        <entry arg="true" endPc="268440123" name="dc" stackId="1" startPc="268439882"/>
+        <entry endPc="268440123" name="rez_cmp_local_text_1193959466" stackId="2" startPc="268439893"/>
+        <entry endPc="268440123" name="rez_cmp_local_bitmap_id_monkey" stackId="3" startPc="268439893"/>
     </localVars>
     <deviceInfo deviceVersion="8fc30743a4191ec19bcafa28e3ffcc2b5a958a17" partNumber="006-B3992-00"/>
     <annotations>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="breath_in"/>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="menu_label_2"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="resonant_breathing"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="start"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="time"/>
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="menu_label_1"/>
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="prompt"/>
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="breath_out"/>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="id_monkey"/>
     </annotations>
     <dataEntryOffsetMappings>
-        <dataEntry label="globals" offset="76" parentId="" symbolId="globals" type="module"/>
-        <dataEntry label="globals/FindYourPeaceApp" offset="188" parentId="globals" symbolId="FindYourPeaceApp" type="class"/>
-        <dataEntry label="globals/FindYourPeaceDelegate" offset="259" parentId="globals" symbolId="FindYourPeaceDelegate" type="class"/>
-        <dataEntry label="globals/Rez" offset="339" parentId="globals" symbolId="Rez" type="module"/>
-        <dataEntry label="globals/FindYourPeaceMenuDelegate" offset="401" parentId="globals" symbolId="FindYourPeaceMenuDelegate" type="class"/>
-        <dataEntry label="globals/Breathing" offset="454" parentId="globals" symbolId="Breathing" type="class"/>
-        <dataEntry label="globals/FindYourPeaceView" offset="516" parentId="globals" symbolId="FindYourPeaceView" type="class"/>
-        <dataEntry label="globals/FindYourPeaceView/&lt;statics&gt;" offset="627" parentId="FindYourPeaceView" symbolId="&lt;statics&gt;" type="module"/>
-        <dataEntry label="globals/LevelScreen" offset="667" parentId="globals" symbolId="LevelScreen" type="class"/>
-        <dataEntry label="globals/StartBreathing" offset="729" parentId="globals" symbolId="StartBreathing" type="class"/>
-        <dataEntry label="globals/Rez/Drawables" offset="818" parentId="Rez" symbolId="Drawables" type="module"/>
-        <dataEntry label="globals/Rez/Layouts" offset="862" parentId="Rez" symbolId="Layouts" type="module"/>
-        <dataEntry label="globals/Rez/Menus" offset="897" parentId="Rez" symbolId="Menus" type="module"/>
-        <dataEntry label="globals/Rez/Strings" offset="932" parentId="Rez" symbolId="Strings" type="module"/>
-        <dataEntry label="globals/Rez/Menus/MainMenu" offset="994" parentId="Menus" symbolId="MainMenu" type="class"/>
+        <dataEntry label="globals" offset="85" parentId="" symbolId="globals" type="module"/>
+        <dataEntry label="globals/FindYourPeaceApp" offset="206" parentId="globals" symbolId="FindYourPeaceApp" type="class"/>
+        <dataEntry label="globals/FindYourPeaceDelegate" offset="277" parentId="globals" symbolId="FindYourPeaceDelegate" type="class"/>
+        <dataEntry label="globals/Rez" offset="366" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/FindYourPeaceMenuDelegate" offset="428" parentId="globals" symbolId="FindYourPeaceMenuDelegate" type="class"/>
+        <dataEntry label="globals/Breathing" offset="481" parentId="globals" symbolId="Breathing" type="class"/>
+        <dataEntry label="globals/Breathing/&lt;statics&gt;" offset="538" parentId="Breathing" symbolId="&lt;statics&gt;" type="module"/>
+        <dataEntry label="globals/FindYourPeaceView" offset="569" parentId="globals" symbolId="FindYourPeaceView" type="class"/>
+        <dataEntry label="globals/FindYourPeaceView/&lt;statics&gt;" offset="680" parentId="FindYourPeaceView" symbolId="&lt;statics&gt;" type="module"/>
+        <dataEntry label="globals/Resulting" offset="738" parentId="globals" symbolId="Resulting" type="class"/>
+        <dataEntry label="globals/LevelScreen" offset="827" parentId="globals" symbolId="LevelScreen" type="class"/>
+        <dataEntry label="globals/StartBreathing" offset="889" parentId="globals" symbolId="StartBreathing" type="class"/>
+        <dataEntry label="globals/Rez/Drawables" offset="1131" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="1175" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/Menus" offset="1210" parentId="Rez" symbolId="Menus" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="1245" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry label="globals/Rez/Menus/MainMenu" offset="1352" parentId="Menus" symbolId="MainMenu" type="class"/>
     </dataEntryOffsetMappings>
     <functions>
         <functionEntry accessMode="public" endPc="268435471" name="&lt;init&gt;" parent="FindYourPeaceApp" startPc="268435460">
@@ -327,47 +490,53 @@
         <functionEntry accessMode="public" name="&lt;init&gt;" parent="Breathing">
             <documentation/>
         </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="globals/Breathing">
+            <documentation/>
+        </functionEntry>
         <functionEntry accessMode="public" endPc="268435548" name="&lt;init&gt;" parent="FindYourPeaceView" startPc="268435537">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="&lt;init&gt;" parent="globals/FindYourPeaceView">
             <documentation/>
         </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Resulting">
+            <documentation/>
+        </functionEntry>
         <functionEntry accessMode="public" name="&lt;init&gt;" parent="LevelScreen">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" name="&lt;init&gt;" parent="StartBreathing">
+        <functionEntry accessMode="public" endPc="268435583" name="&lt;init&gt;" parent="StartBreathing" startPc="268435549">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435731" name="onStart" parent="FindYourPeaceApp" startPc="268435549">
+        <functionEntry accessMode="public" endPc="268435766" name="onStart" parent="FindYourPeaceApp" startPc="268435584">
             <param id="state"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435780" name="getInitialView" parent="FindYourPeaceApp" startPc="268435732">
+        <functionEntry accessMode="public" endPc="268435815" name="getInitialView" parent="FindYourPeaceApp" startPc="268435767">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435795" name="initialize" parent="FindYourPeaceApp" startPc="268435781">
+        <functionEntry accessMode="public" endPc="268435830" name="initialize" parent="FindYourPeaceApp" startPc="268435816">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435798" name="onStop" parent="FindYourPeaceApp" startPc="268435796">
+        <functionEntry accessMode="public" endPc="268435833" name="onStop" parent="FindYourPeaceApp" startPc="268435831">
             <param id="state"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435867" name="onMenu" parent="FindYourPeaceDelegate" startPc="268435799">
+        <functionEntry accessMode="public" endPc="268435902" name="onMenu" parent="FindYourPeaceDelegate" startPc="268435834">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435950" name="checkScreen" parent="FindYourPeaceDelegate" startPc="268435868">
+        <functionEntry accessMode="public" endPc="268435985" name="checkScreen" parent="FindYourPeaceDelegate" startPc="268435903">
             <param id="current"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436047" name="onSwipe" parent="FindYourPeaceDelegate" startPc="268435951">
+        <functionEntry accessMode="public" endPc="268435989" name="onSwipe" parent="FindYourPeaceDelegate" startPc="268435986">
             <param id="swipeEvent"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436062" name="initialize" parent="FindYourPeaceDelegate" startPc="268436048">
+        <functionEntry accessMode="public" endPc="268436004" name="initialize" parent="FindYourPeaceDelegate" startPc="268435990">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436235" name="onKey" parent="FindYourPeaceDelegate" startPc="268436063">
+        <functionEntry accessMode="public" endPc="268436539" name="onKey" parent="FindYourPeaceDelegate" startPc="268436005">
             <param id="keyEvent"/>
             <documentation/>
         </functionEntry>
@@ -383,14 +552,14 @@
         <functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436302" name="onMenuItem" parent="FindYourPeaceMenuDelegate" startPc="268436236">
+        <functionEntry accessMode="public" endPc="268436606" name="onMenuItem" parent="FindYourPeaceMenuDelegate" startPc="268436540">
             <param id="item"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436317" name="initialize" parent="FindYourPeaceMenuDelegate" startPc="268436303">
+        <functionEntry accessMode="public" endPc="268436621" name="initialize" parent="FindYourPeaceMenuDelegate" startPc="268436607">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436592" name="draw" parent="Breathing" startPc="268436318">
+        <functionEntry accessMode="public" endPc="268436972" name="draw" parent="Breathing" startPc="268436622">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
@@ -400,21 +569,35 @@
         <functionEntry accessMode="public" name="onShow" parent="FindYourPeaceView">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436673" name="onLayout" parent="FindYourPeaceView" startPc="268436593">
+        <functionEntry accessMode="public" endPc="268437053" name="onLayout" parent="FindYourPeaceView" startPc="268436973">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436688" name="initialize" parent="FindYourPeaceView" startPc="268436674">
+        <functionEntry accessMode="public" endPc="268437068" name="initialize" parent="FindYourPeaceView" startPc="268437054">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="onHide" parent="FindYourPeaceView">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436810" name="onUpdate" parent="FindYourPeaceView" startPc="268436689">
+        <functionEntry accessMode="public" endPc="268437194" name="onUpdate" parent="FindYourPeaceView" startPc="268437069">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436946" name="drawLevelBar" parent="LevelScreen" startPc="268436811">
+        <functionEntry accessMode="public" endPc="268437465" name="draw" parent="Resulting" startPc="268437195">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="initialize" parent="Resulting">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437814" name="resulting" parent="Resulting" startPc="268437466">
+            <param id="seconds"/>
+            <param id="avg_stres"/>
+            <param id="max_stress"/>
+            <param id="stress_median"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437950" name="drawLevelBar" parent="LevelScreen" startPc="268437815">
             <param id="dc"/>
             <param id="middle_x"/>
             <param id="y"/>
@@ -424,28 +607,46 @@
             <param id="needed"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437299" name="draw" parent="LevelScreen" startPc="268436947">
+        <functionEntry accessMode="public" endPc="268438303" name="draw" parent="LevelScreen" startPc="268437951">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="initialize" parent="LevelScreen">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437319" name="initialize" parent="StartBreathing" startPc="268437300">
+        <functionEntry accessMode="public" endPc="268438386" name="endBreathing" parent="StartBreathing" startPc="268438304">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437753" name="draw" parent="StartBreathing" startPc="268437320">
+        <functionEntry accessMode="public" endPc="268439434" name="draw" parent="StartBreathing" startPc="268438387">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437995" name="MainLayout" parent="Layouts" startPc="268437754">
+        <functionEntry accessMode="public" endPc="268439481" name="pad2" parent="StartBreathing" startPc="268439435">
+            <param id="n"/>
+            <param id="k"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439722" name="getMedian" parent="StartBreathing" startPc="268439482">
+            <param id="values"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439779" name="continueBreathing" parent="StartBreathing" startPc="268439723">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439799" name="initialize" parent="StartBreathing" startPc="268439780">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439881" name="pauzeBreathing" parent="StartBreathing" startPc="268439800">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440123" name="MainLayout" parent="Layouts" startPc="268439882">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438007" name="&lt;init&gt;" parent="MainMenu" startPc="268437996">
+        <functionEntry accessMode="public" endPc="268440135" name="&lt;init&gt;" parent="MainMenu" startPc="268440124">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438112" name="initialize" parent="MainMenu" startPc="268438008">
+        <functionEntry accessMode="public" endPc="268440240" name="initialize" parent="MainMenu" startPc="268440136">
             <documentation/>
         </functionEntry>
     </functions>

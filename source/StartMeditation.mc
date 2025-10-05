@@ -5,7 +5,7 @@ import Toybox.System;
 import Toybox.Sensor;
 import Toybox.Graphics;
 
-class StartBreathing {
+class StartMeditation {
 
     var _Resulting = new Resulting();
     var seconds = 0;
@@ -35,7 +35,7 @@ class StartBreathing {
     function draw(dc as Dc) {
 
         //vykreslenie vyslednej obrazovky po aktivite
-        if( Application.Storage.getValue("ActivityBreathing") == 3){
+        if( Application.Storage.getValue("ActivityMeditation") == 3){
             _Resulting.draw(dc);
             return;
         }
@@ -51,7 +51,7 @@ class StartBreathing {
         }
 
         //aktivita pauznuta
-        if(Application.Storage.getValue("ActivityBreathing") == 2){
+        if(Application.Storage.getValue("ActivityMeditation") == 2){
 
             pauzeBreathing();
             var con_but_height = FindYourPeaceView.height * 0.4;
@@ -142,14 +142,14 @@ class StartBreathing {
 
         _Resulting.resulting(seconds, avg_stres, max_stress, getMedian(stress_median));
 
-        Application.Storage.setValue("ActivityBreathing", 3); //zrusenie aktivty breathing, vratenie do hlavneho menu
+        Application.Storage.setValue("ActivityMeditation", 3); //zrusenie aktivty breathing, vratenie do hlavneho menu
     }
 
     function continueBreathing(){
         pauze_total += pauze_now;
         pauze_start = false;
         pauze_now = 0;
-        Application.Storage.setValue("ActivityBreathing", 1); //pokracovanie aktivita dychanie
+        Application.Storage.setValue("ActivityMeditation", 1); //pokracovanie aktivita dychanie
     }
 
     function pauzeBreathing(){ //zastavit cas

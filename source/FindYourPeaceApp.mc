@@ -12,15 +12,15 @@ class FindYourPeaceApp extends Application.AppBase {
     function onStart(state as Dictionary?) as Void {
 
         Application.Storage.setValue("currentScreen", 1);
-        Application.Storage.setValue("numberofscreens", 2); // number of total screens of app
+        Application.Storage.setValue("numberofscreens", 3); // number of total screens of app
         Application.Storage.setValue("menu", 0);
-        Application.Storage.setValue("Activity", 0);
+        Application.Storage.setValue("ActivityBreathing", 0);
 
-        // inicializácia levelu
+        // inicializácia noveho pouzivatela
         if(Application.Storage.getValue("level") == null){
             Application.Storage.setValue("level", 1);
             Application.Storage.setValue("levelProgress", 0);
-            Application.Storage.setValue("nextlevelneededpoints", 4);
+            Application.Storage.setValue("nextlevelneededpoints", 50);
             Application.Storage.setValue("hotstreak", 0); //pocet dni dychoveho cvicenia
 
         }
